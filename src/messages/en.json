@@ -1,0 +1,376 @@
+{
+  "meta": {
+    "title": "Plaza Juan Barón | Juan Barón Square",
+    "description": "Explore Plaza Juan Barón in Santo Domingo, Dominican Republic. A beautiful urban park and a favorite leisure place for local residents and tourists."
+  },
+  "header": {
+    "home": "Home",
+    "gallery": "Gallery",
+    "reviews": "Reviews",
+    "map": "Map",
+    "backToHome": "Back to Home"
+  },
+  "hero": {
+    "title": "Plaza Juan Barón",
+    "subtitle": "Juan Barón Square · Santo Domingo, Dominican Republic",
+    "rating": "4.5",
+    "reviewCount": "10,912",
+    "hours": "Park",
+    "openMaps": "View Location"
+  },
+  "intro": {
+    "title": "Explore Plaza Juan Barón",
+    "description": "Plaza Juan Barón is located at P.º Pdte. Billini, Santo Domingo, Dominican Republic. It is a beautiful urban park and a favorite leisure place for local residents and tourists. The park has become an important public space in Santo Domingo with its beautiful environment and convenient location.",
+    "visitGuide": {
+      "title": "Visiting Tips",
+      "items": [
+        "Park is open daily 16:00–00:00",
+        "Comfortable walking shoes are recommended",
+        "Bring a camera to capture the park's beautiful scenery",
+        "Carry enough water and sunscreen",
+        "Respect local culture and environment"
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "Highlights",
+      "items": [
+        "Beautiful Environment: The park has spacious leisure spaces and beautiful landscapes, making it an ideal place to relax.",
+        "Convenient Location: Located in the city center of Santo Domingo with convenient transportation.",
+        "Cultural Value: As an urban public space, it has important social and cultural value.",
+        "Free Admission: The park is free and open to the public, a great place for leisure and entertainment."
+      ]
+    }
+  },
+  "route": {
+    "title": "Tour Route",
+    "overview": "The ideal route to explore Plaza Juan Barón:",
+    "steps": [
+      "Start at the main entrance at P.º Pdte. Billini.",
+      "Walk along the paths and enjoy the park's landscapes and greenery.",
+      "Rest in the leisure areas and feel the local lifestyle.",
+      "Take photos of the park's beautiful scenery and city views."
+    ],
+    "supplementsTitle": "Additional Tour Tips",
+    "supplements": [
+      "It's recommended to go in the afternoon or evening when the weather is cooler.",
+      "Pay attention to the park's opening hours (16:00–00:00) and arrange your itinerary reasonably.",
+      "Please take care of the park environment and take your garbage with you."
+    ]
+  },
+  "knowledge": {
+    "title": "Discover the Charm of Plaza Juan Barón",
+    "sections": [
+      {
+        "id": "history",
+        "title": "Historical Significance",
+        "content": "Plaza Juan Barón is an important public space and urban park in Santo Domingo, providing a beautiful leisure environment for local residents and tourists."
+      },
+      {
+        "id": "nature",
+        "title": "Park Landscape",
+        "content": "It features beautiful landscapes and spacious leisure spaces, making it an excellent place to experience Santo Domingo's urban life."
+      },
+      {
+        "id": "experience",
+        "title": "Visiting Experience",
+        "content": "Strolling through Plaza Juan Barón, feeling the cultural atmosphere and beautiful scenery of the Dominican capital, is an unforgettable urban park experience."
+      }
+    ]
+  },
+  "basicInfo": {
+    "title": "Basic Information",
+    "officialName": "Official Name",
+    "officialNameValue": "Plaza Juan Barón (Juan Barón Square)",
+    "type": "Attraction Type",
+    "typeValue": "Park",
+    "country": "Country",
+    "countryValue": "Dominican Republic",
+    "city": "City",
+    "cityValue": "Santo Domingo",
+    "googleRating": "Google Rating",
+    "address": "Address",
+    "addressValue": "F474+RWW, P.º Pdte. Billini, Santo Domingo 10208, Dominican Republic",
+    "plusCode": "Plus Code",
+    "plusCodeValue": "F474+RWW Santo Domingo 10208, Dominican Republic",
+    "phone": "Official Phone",
+    "phoneValue": "+1 809-689-9476"
+  },
+  "hours": {
+    "title": "Opening Hours",
+    "outdoor": "Park Opening Hours",
+    "outdoorTime": "Daily 16:00–00:00",
+    "lighthouse": "Best Time to Visit",
+    "summer": "Afternoon to Evening",
+    "summerTime": "Afternoon or evening visits offer the best experience",
+    "winter": "Recommended Visit Time",
+    "winterTime": "After 16:00",
+    "warning": "Important Notes",
+    "warningTime": "Recommended to verify latest information before visiting",
+    "tip": "Afternoon to evening visits offer the best experience"
+  },
+  "tickets": {
+    "title": "Important Information",
+    "outdoor": "Entrance Fee",
+    "outdoorPrice": "Free admission",
+    "lighthouse": "Parking Fee",
+    "adults": "Parking Cost",
+    "adultsPrice": "Please check official information",
+    "students": "Other Fees",
+    "studentsPrice": "Please check official announcements",
+    "card": "Guide Services & Directions",
+    "cardPrice": "Local services may be available on-site (recommend confirming in advance). Directions: 👉 [Go to Plaza Juan Barón]",
+    "officialNotice": "For the latest updates on opening hours and related information, please refer to the",
+    "officialNoticeLinkLabel": "Santo Domingo National District City Hall Official Announcement",
+    "officialNoticeLink": "https://adn.gob.do/"
+  },
+  "transport": {
+    "title": "Transportation",
+    "airport": "From the Airport",
+    "airportDesc": "It is relatively close to Santo Domingo Airport. It is recommended to take a taxi or public transportation after arriving in the city.",
+    "selfDrive": "Driving",
+    "selfDriveDesc": "Located in the city center of Santo Domingo. It is recommended to use navigation. There may be parking areas nearby.",
+    "bus": "Public Transport",
+    "busDesc": "You can take public transportation in Santo Domingo to nearby areas, but please pay attention to the schedule.",
+    "intercity": "Walking Tour",
+    "intercityDesc": "There are walking paths in the park, walkable to various areas.",
+    "cycling": "Other Means",
+    "cyclingDesc": "Taxis or driving recommended, convenient transportation around the park.",
+    "tips": "Travel Tips",
+    "tipsDesc": "Plaza Juan Barón is an excellent place to experience Santo Domingo's urban life. Visiting in the afternoon or evening is recommended."
+  },
+  "gallery": {
+    "title": "Stunning Photos",
+    "subtitle": "The Charm of Plaza Juan Barón",
+    "captions": [
+      "Square panoramic view",
+      "Park landscape",
+      "Leisure area",
+      "Square scenery",
+      "Natural landscape",
+      "Walking paths",
+      "Cultural landscape",
+      "Square features",
+      "Leisure atmosphere",
+      "Green space",
+      "Square culture",
+      "Full square view",
+      "Leisure style",
+      "Natural traces",
+      "Cultural landscape",
+      "Natural scenery",
+      "Park landscape",
+      "Leisure facilities"
+    ],
+    "viewAll": "View more photos on Google Maps",
+    "showAllPhotos": "Show All Photos"
+  },
+  "reviews": {
+    "title": "Visitor Reviews",
+    "declaration": "Review information can be viewed via Google Maps (external link).",
+    "moreReviews": "View More Reviews on Google Maps",
+    "items": [
+      {
+        "name": "Carlos Rivera",
+        "date": "2 months ago",
+        "rating": 5,
+        "text": "A very beautiful urban park. The environment is unforgettable, highly recommended for relaxation and leisure."
+      },
+      {
+        "name": "María González",
+        "date": "3 weeks ago",
+        "rating": 5,
+        "text": "Amazing urban park. The environment is very beautiful. This is an important part of Santo Domingo's public leisure space."
+      },
+      {
+        "name": "Juan Pérez",
+        "date": "1 month ago",
+        "rating": 4,
+        "text": "Very interesting place to feel the local cultural atmosphere. Afternoon visits recommended when the weather is most comfortable."
+      },
+      {
+        "name": "Ana Torres",
+        "date": "Over 6 months ago",
+        "rating": 5,
+        "text": "An important public space in Santo Domingo. The scenery of the park is pleasant, a must-visit place in Santo Domingo."
+      },
+      {
+        "name": "Roberto Silva",
+        "date": "2 years ago",
+        "rating": 4,
+        "text": "Great urban park experience. The environment is wonderful, and there are many urban landscapes nearby."
+      },
+      {
+        "name": "Sofía Méndez",
+        "date": "Over 6 months ago",
+        "rating": 5,
+        "text": "Beautiful square, full of the charm of Dominican culture. The scenery is unforgettable, definitely worth a visit."
+      },
+      {
+        "name": "Miguel Herrera",
+        "date": "3 months ago",
+        "rating": 4,
+        "text": "Interesting urban venue. Experience culture up close, recommend protecting the environment."
+      },
+      {
+        "name": "Laura Vargas",
+        "date": "1 month ago",
+        "rating": 5,
+        "text": "Cultural gem of Santo Domingo. This park is an ideal place to relax, definitely worth experiencing."
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "Location & Map",
+    "subtitle": "F474+RWW, P.º Pdte. Billini, Santo Domingo 10208, Dominican Republic",
+    "openMaps": "View on Google Maps"
+  },
+  "footer": {
+    "rights": "© 2026 Plaza Juan Barón. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Settings",
+    "officialResourcesTitle": "Official Resources",
+    "officialLinks": {
+      "adn": {
+        "name": "Santo Domingo National District City Hall",
+        "url": "https://adn.gob.do/"
+      },
+      "mitur": {
+        "name": "Ministry of Tourism of Dominican Republic",
+        "url": "https://www.mitur.gob.do/"
+      },
+      "miderec": {
+        "name": "Ministry of Sports and Recreation of Dominican Republic",
+        "url": "https://miderec.gob.do/"
+      },
+      "godominicanrepublic": {
+        "name": "Dominican Republic Official Tourism Guide",
+        "url": "https://www.godominicanrepublic.com/"
+      }
+    },
+    "disclaimer": "This website is an independent third-party travel information project. We have no affiliation with local government or other official institutions."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated: June 2026",
+    "sections": [
+      {
+        "heading": "1. Information We Collect",
+        "content": "We only collect the minimum data necessary to provide our services. This data may include: browsing data (IP address, browser type, visited pages), cookies and similar technologies, and any information you voluntarily provide via contact forms or email."
+      },
+      {
+        "heading": "2. How We Use Your Information",
+        "content": "We use the collected information to: improve website content and user experience, analyze traffic and usage patterns, respond to requests, and comply with our legal obligations."
+      },
+      {
+        "heading": "3. Third-Party Services",
+        "content": "Our website may use third-party services such as Google Maps (for embedded maps and location data), Google Analytics (for traffic analysis), and Unsplash (for images). These services have their own privacy policies."
+      },
+      {
+        "heading": "4. Your Rights",
+        "content": "Under the General Data Protection Regulation (GDPR) and related regulations, you have the right to: access your personal data, request correction or deletion, object to processing, and lodge a complaint with a supervisory authority."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last Updated: June 2026",
+    "sections": [
+      {
+        "heading": "1. Acceptance of Terms",
+        "content": "By accessing and using this website, you agree to be bound by these terms of service."
+      },
+      {
+        "heading": "2. Use of Content",
+        "content": "All content on this website is for informational purposes only. We are an independent third-party travel information website, not affiliated with any tourist attractions, government agencies, or commercial operators."
+      },
+      {
+        "heading": "3. Accuracy of Information",
+        "content": "We strive to provide accurate and timely information, but we cannot guarantee its completeness or accuracy. Itineraries, conditions, and services are subject to change without notice. Always verify important information through official channels before traveling."
+      },
+      {
+        "heading": "4. Intellectual Property",
+        "content": "The design and original content of this website are protected by copyright. Images are sourced from Unsplash and used under license. The use of Google Maps data complies with Google's terms of service."
+      },
+      {
+        "heading": "5. Limitation of Liability",
+        "content": "This website is provided \"as is\" without any warranties. We are not responsible for any losses resulting from the use of information on this website, including but not limited to travel decisions made based on its content."
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Cookie Settings",
+    "description": "Last Updated: June 2026\n\nWe use cookies to improve your browsing experience. You can manage your preferences below.",
+    "essential": {
+      "title": "Essential Cookies",
+      "description": "These cookies are essential for the website to function properly and cannot be disabled.",
+      "badge": "Always Active"
+    },
+    "analytics": {
+      "title": "Analytics Cookies",
+      "description": "They help us understand how visitors interact with our website by collecting anonymous usage data.",
+      "items": [
+        {
+          "name": "Google Analytics",
+          "status": "Active",
+          "description": "It collects anonymous information about how visitors use our website."
+        }
+      ]
+    },
+    "marketing": {
+      "title": "Marketing Cookies",
+      "description": "They are used to show relevant advertisements and measure the effectiveness of ad campaigns.",
+      "items": [
+        {
+          "name": "Personalized Ads",
+          "status": "Inactive",
+          "description": "It can show you relevant ads based on your interests."
+        }
+      ]
+    },
+    "save": "Save Preferences",
+    "saved": "Settings saved!",
+    "preferences": {
+      "items": [
+        {
+          "name": "User Preferences",
+          "status": "Active",
+          "description": "Saves your language preferences and website settings."
+        }
+      ],
+      "title": "Preference Cookies",
+      "description": "They remember your settings, such as language and theme preferences."
+    },
+    "consentManagement": "Consent Management: You can change your cookie settings at any time. Please note that disabling certain cookies may affect the website's functionality.",
+    "rejectAll": "Reject All"
+  },
+  "officialManagement": {
+    "title": "About Plaza Juan Barón",
+    "text": "Plaza Juan Barón is a famous urban park in Santo Domingo, featuring beautiful landscapes and rich cultural value. It is a favorite leisure place for local residents and tourists."
+  },
+  "historyTimeline": {
+    "title": "Historical Timeline",
+    "items": [
+      {
+        "year": "Early Period",
+        "title": "Early Period: Square Construction",
+        "plaque": "Urban Landscape (Square)",
+        "description": "The construction of Plaza Juan Barón aimed to provide a beautiful public leisure space for Santo Domingo citizens, and has long been regarded as an important urban public space by local residents."
+      },
+      {
+        "year": "20th Century",
+        "title": "20th Century: Facility Improvement",
+        "plaque": "Urban Development (Square Construction)",
+        "description": "With the development of Santo Domingo, the square gradually improved walking paths and leisure facilities, becoming an important place for citizens' leisure and entertainment."
+      },
+      {
+        "year": "21st Century",
+        "title": "21st Century: Urban Landmark",
+        "plaque": "Urban Identity (Public Space)",
+        "description": "Entering the 21st century, with its beautiful environment and important cultural value, it has attracted more tourists and become an important urban public space in Santo Domingo."
+      }
+    ],
+    "guideTitle": "Visitor Guide Tip",
+    "guideContent": "When visiting, you can start by strolling from the main entrance at P.º Pdte. Billini; then walk around the square to enjoy the landscapes and greenery; if you have enough time, you can rest in the leisure areas and feel the local urban life. Finally, explore the urban scenery around the square and feel the charm of the Dominican capital."
+  }
+}

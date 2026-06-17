@@ -1,0 +1,376 @@
+{
+  "meta": {
+    "title": "Plaza Juan Barón | Plaza Juan Barón",
+    "description": "Explora la Plaza Juan Barón en Santo Domingo, República Dominicana. Un hermoso parque urbano y un lugar de ocio favorito para los residentes locales y turistas."
+  },
+  "header": {
+    "home": "Inicio",
+    "gallery": "Galería",
+    "reviews": "Reseñas",
+    "map": "Mapa",
+    "backToHome": "Volver al Inicio"
+  },
+  "hero": {
+    "title": "Plaza Juan Barón",
+    "subtitle": "Plaza Juan Barón · Santo Domingo, República Dominicana",
+    "rating": "4.5",
+    "reviewCount": "10,912",
+    "hours": "Parque",
+    "openMaps": "Ver Ubicación"
+  },
+  "intro": {
+    "title": "Explora la Plaza Juan Barón",
+    "description": "La Plaza Juan Barón se encuentra en P.º Pdte. Billini, Santo Domingo, República Dominicana. Es un hermoso parque urbano y un lugar de ocio favorito para los residentes locales y turistas. El parque se ha convertido en un importante espacio público en Santo Domingo con su hermoso ambiente y ubicación conveniente.",
+    "visitGuide": {
+      "title": "Consejos de Visita",
+      "items": [
+        "El parque está abierto diariamente de 16:00 a 00:00",
+        "Se recomienda usar calzado cómodo para caminar",
+        "Lleva una cámara para capturar los hermosos paisajes del parque",
+        "Lleva suficiente agua y protector solar",
+        "Respetar la cultura local y el medio ambiente"
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "Destacados",
+      "items": [
+        "Hermoso Ambiente: El parque tiene amplios espacios de ocio y hermosos paisajes, siendo un lugar ideal para relajarse.",
+        "Ubicación Conveniente: Ubicado en el centro de Santo Domingo con transporte conveniente.",
+        "Valor Cultural: Como espacio público urbano, tiene un importante valor social y cultural.",
+        "Entrada Gratuita: El parque es gratuito y está abierto al público, un gran lugar para el ocio y entretenimiento."
+      ]
+    }
+  },
+  "route": {
+    "title": "Ruta de Visita",
+    "overview": "La ruta ideal para explorar la Plaza Juan Barón:",
+    "steps": [
+      "Comienza en la entrada principal en P.º Pdte. Billini.",
+      "Camina por los senderos y disfruta de los paisajes del parque y el follaje.",
+      "Descansa en las áreas de ocio y siente el estilo de vida local.",
+      "Toma fotos de los hermosos paisajes del parque y las vistas de la ciudad."
+    ],
+    "supplementsTitle": "Consejos Adicionales de Visita",
+    "supplements": [
+      "Se recomienda ir por la tarde o noche cuando el clima es más fresco.",
+      "Presta atención al horario de apertura del parque (16:00–00:00) y organiza tu itinerario razonablemente.",
+      "Por favor, cuida el ambiente del parque y llévate tu basura."
+    ]
+  },
+  "knowledge": {
+    "title": "Descubre el Encanto de la Plaza Juan Barón",
+    "sections": [
+      {
+        "id": "history",
+        "title": "Importancia Histórica",
+        "content": "La Plaza Juan Barón es un importante espacio público y parque urbano en Santo Domingo, que proporciona un hermoso ambiente de ocio para los residentes locales y turistas."
+      },
+      {
+        "id": "nature",
+        "title": "Paisaje del Parque",
+        "content": "Cuenta con hermosos paisajes y amplios espacios de ocio, siendo un lugar excelente para experimentar la vida urbana de Santo Domingo."
+      },
+      {
+        "id": "experience",
+        "title": "Experiencia de Visita",
+        "content": "Pasear por la Plaza Juan Barón, sentir el ambiente cultural y los hermosos paisajes de la capital dominicana, es una experiencia inolvidable de parque urbano."
+      }
+    ]
+  },
+  "basicInfo": {
+    "title": "Información Básica",
+    "officialName": "Nombre Oficial",
+    "officialNameValue": "Plaza Juan Barón",
+    "type": "Tipo de atracción",
+    "typeValue": "Parque",
+    "country": "País",
+    "countryValue": "República Dominicana",
+    "city": "Ciudad",
+    "cityValue": "Santo Domingo",
+    "googleRating": "Calificación de Google",
+    "address": "Dirección",
+    "addressValue": "F474+RWW, P.º Pdte. Billini, Santo Domingo 10208, República Dominicana",
+    "plusCode": "Código Plus",
+    "plusCodeValue": "F474+RWW Santo Domingo 10208, República Dominicana",
+    "phone": "Teléfono Oficial",
+    "phoneValue": "+1 809-689-9476"
+  },
+  "hours": {
+    "title": "Horarios de Apertura",
+    "outdoor": "Horario del Parque",
+    "outdoorTime": "Diariamente 16:00–00:00",
+    "lighthouse": "Mejor Época para Visitar",
+    "summer": "Tarde y Noche",
+    "summerTime": "Las visitas por la tarde o noche ofrecen la mejor experiencia",
+    "winter": "Hora Recomendada para Visitar",
+    "winterTime": "Después de las 16:00",
+    "warning": "Notas Importantes",
+    "warningTime": "Se recomienda verificar la información más reciente antes de visitar",
+    "tip": "Las visitas por la tarde o noche ofrecen la mejor experiencia"
+  },
+  "tickets": {
+    "title": "Información Importante",
+    "outdoor": "Tarifa de Entrada",
+    "outdoorPrice": "Entrada gratuita",
+    "lighthouse": "Tarifa de Parqueo",
+    "adults": "Costo de Parqueo",
+    "adultsPrice": "Por favor, consulte la información oficial",
+    "students": "Otros Cargos",
+    "studentsPrice": "Por favor, consulte los anuncios oficiales",
+    "card": "Guías e Indicaciones",
+    "cardPrice": "Es posible que haya servicios locales disponibles en el lugar (se recomienda confirmar con anticipación). Indicaciones: 👉 [Ir a la Plaza Juan Barón]",
+    "officialNotice": "Para obtener las últimas actualizaciones sobre horarios de apertura e información relacionada, consulte el",
+    "officialNoticeLinkLabel": "Anuncio Oficial del Ayuntamiento del Distrito Nacional de Santo Domingo",
+    "officialNoticeLink": "https://adn.gob.do/"
+  },
+  "transport": {
+    "title": "Transporte",
+    "airport": "Desde el Aeropuerto",
+    "airportDesc": "Está relativamente cerca del Aeropuerto de Santo Domingo. Se recomienda tomar un taxi o transporte público después de llegar a la ciudad.",
+    "selfDrive": "En Coche",
+    "selfDriveDesc": "Ubicado en el centro de Santo Domingo. Se recomienda usar navegación. Puede haber áreas de estacionamiento cercanas.",
+    "bus": "Transporte Público",
+    "busDesc": "Puede tomar transporte público en Santo Domingo a áreas cercanas, pero preste atención al horario.",
+    "intercity": "Tour a Pie",
+    "intercityDesc": "Hay senderos para caminatas en el parque, caminable a varias áreas.",
+    "cycling": "Otros Medios",
+    "cyclingDesc": "Se recomienda transporte público o manejar, transporte conveniente alrededor del parque.",
+    "tips": "Consejos de Viaje",
+    "tipsDesc": "La Plaza Juan Barón es un excelente lugar para experimentar la vida urbana de Santo Domingo. Se recomienda visitar por la tarde o noche."
+  },
+  "gallery": {
+    "title": "Fotos Impresionantes",
+    "subtitle": "El Encanto de Plaza Juan Barón",
+    "captions": [
+      "Vista panorámica de la plaza",
+      "Paisaje del parque",
+      "Área de ocio",
+      "Paisaje de la plaza",
+      "Paisaje natural",
+      "Senderos para caminatas",
+      "Paisaje cultural",
+      "Estilo de la plaza",
+      "Ambiente de ocio",
+      "Espacio verde",
+      "Cultura de la plaza",
+      "Vista completa de la plaza",
+      "Estilo de ocio",
+      "Rastros naturales",
+      "Cultura natural",
+      "Paisaje natural",
+      "Paisaje del parque",
+      "Instalaciones de ocio"
+    ],
+    "viewAll": "Ver más fotos en Google Maps",
+    "showAllPhotos": "Mostrar Todas las Fotos"
+  },
+  "reviews": {
+    "title": "Reseñas de Visitantes",
+    "declaration": "La información de las reseñas se puede ver a través de Google Maps (enlace externo).",
+    "moreReviews": "Ver Más Reseñas en Google Maps",
+    "items": [
+      {
+        "name": "Carlos Rivera",
+        "date": "hace 2 meses",
+        "rating": 5,
+        "text": "Un parque urbano muy hermoso. El ambiente es inolvidable, muy recomendable para relajarse y disfrutar del ocio."
+      },
+      {
+        "name": "María González",
+        "date": "hace 3 semanas",
+        "rating": 5,
+        "text": "Parque urbano asombroso. El ambiente es muy hermoso. Esta es una parte importante del espacio de ocio público de Santo Domingo."
+      },
+      {
+        "name": "Juan Pérez",
+        "date": "hace 1 mes",
+        "rating": 4,
+        "text": "Lugar muy interesante para sentir el ambiente cultural local. Se recomiendan las visitas por la tarde cuando el clima es más cómodo."
+      },
+      {
+        "name": "Ana Torres",
+        "date": "hace más de 6 meses",
+        "rating": 5,
+        "text": "Un espacio público importante en Santo Domingo. El paisaje del parque es agradable, un lugar imprescindible en Santo Domingo."
+      },
+      {
+        "name": "Roberto Silva",
+        "date": "hace 2 años",
+        "rating": 4,
+        "text": "Excelente experiencia de parque urbano. El ambiente es maravilloso, y hay muchos paisajes urbanos cercanos."
+      },
+      {
+        "name": "Sofía Méndez",
+        "date": "hace más de 6 meses",
+        "rating": 5,
+        "text": "Hermosa plaza, llena del encanto de la cultura dominicana. El paisaje es inolvidable, definitivamente vale la pena visitarlo."
+      },
+      {
+        "name": "Miguel Herrera",
+        "date": "hace 3 meses",
+        "rating": 4,
+        "text": "Lugar urbano interesante. Experimento la cultura de cerca, recomiendo proteger el medio ambiente."
+      },
+      {
+        "name": "Laura Vargas",
+        "date": "hace 1 mes",
+        "rating": 5,
+        "text": "Gema cultural de Santo Domingo. Este parque es un lugar ideal para relajarse, definitivamente vale la pena experimentarlo."
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "Ubicación y Mapa",
+    "subtitle": "F474+RWW, P.º Pdte. Billini, Santo Domingo 10208, República Dominicana",
+    "openMaps": "Ver en Google Maps"
+  },
+  "footer": {
+    "rights": "© 2026 Plaza Juan Barón. Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "cookies": "Configuración de Cookies",
+    "officialResourcesTitle": "Recursos Oficiales",
+    "officialLinks": {
+      "adn": {
+        "name": "Ayuntamiento del Distrito Nacional de Santo Domingo",
+        "url": "https://adn.gob.do/"
+      },
+      "mitur": {
+        "name": "Ministerio de Turismo de República Dominicana",
+        "url": "https://www.mitur.gob.do/"
+      },
+      "miderec": {
+        "name": "Ministerio de Deportes y Recreación de República Dominicana",
+        "url": "https://miderec.gob.do/"
+      },
+      "godominicanrepublic": {
+        "name": "Guía Oficial de Turismo de República Dominicana",
+        "url": "https://www.godominicanrepublic.com/"
+      }
+    },
+    "disclaimer": "Este sitio web es un proyecto independiente de información turística de terceros. No tenemos afiliación con el gobierno local u otras instituciones oficiales."
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última actualización: junio de 2026",
+    "sections": [
+      {
+        "heading": "1. Información que Recopilamos",
+        "content": "Solo recopilamos los datos mínimos necesarios para proporcionar nuestros servicios. Estos datos pueden incluir: datos de navegación (dirección IP, tipo de navegador, páginas visitadas), cookies y tecnologías similares, y cualquier información que proporcione voluntariamente a través de formularios de contacto o correo electrónico."
+      },
+      {
+        "heading": "2. Cómo Utilizamos su Información",
+        "content": "Utilizamos la información recopilada para: mejorar el contenido del sitio web y la experiencia del usuario, analizar el tráfico y los patrones de uso, responder a solicitudes y cumplir con nuestras obligaciones legales."
+      },
+      {
+        "heading": "3. Servicios de Terceros",
+        "content": "Nuestro sitio web puede utilizar servicios de terceros como Google Maps (para mapas integrados y datos de ubicación), Google Analytics (para análisis de tráfico) y Unsplash (para imágenes). Estos servicios tienen sus propias políticas de privacidad."
+      },
+      {
+        "heading": "4. Sus Derechos",
+        "content": "Bajo el Reglamento General de Protección de Datos (RGPD) y regulaciones relacionadas, usted tiene derecho a: acceder a sus datos personales, solicitar corrección o eliminación, oponerse al tratamiento y presentar una queja ante una autoridad de control."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Términos de Servicio",
+    "lastUpdated": "Última actualización: junio de 2026",
+    "sections": [
+      {
+        "heading": "1. Aceptación de los Términos",
+        "content": "Al acceder y utilizar este sitio web, usted acepta estar sujeto a estos términos de servicio."
+      },
+      {
+        "heading": "2. Uso del Contenido",
+        "content": "Todo el contenido de este sitio web es solo para fines informativos. Somos un sitio web independiente de información turística de terceros, no afiliado con ningún atractivo turístico, agencia gubernamental u operador comercial."
+      },
+      {
+        "heading": "3. Exactitud de la Información",
+        "content": "Nos esforzamos por proporcionar información precisa y oportuna, pero no podemos garantizar su integridad o exactitud. Los itinerarios, condiciones y servicios están sujetos a cambios sin previo aviso. Verifique siempre la información importante a través de canales oficiales antes de viajar."
+      },
+      {
+        "heading": "4. Propiedad Intelectual",
+        "content": "El diseño y el contenido original de este sitio web están protegidos por derechos de autor. Las imágenes provienen de Unsplash y se utilizan bajo licencia. El uso de datos de Google Maps cumple con los términos de servicio de Google."
+      },
+      {
+        "heading": "5. Limitación de Responsabilidad",
+        "content": "Este sitio web se proporciona \"tal como está\" sin ninguna garantía. No somos responsables de ninguna pérdida derivada del uso de la información en este sitio web, incluyendo, entre otros, las decisiones de viaje basadas en su contenido."
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Configuración de Cookies",
+    "description": "Última actualización: junio de 2026\n\nUtilizamos cookies para mejorar su experiencia de navegación. Puede gestionar sus preferencias a continuación.",
+    "essential": {
+      "title": "Cookies Esenciales",
+      "description": "Estas cookies son esenciales para el funcionamiento correcto del sitio web y no se pueden deshabilitar.",
+      "badge": "Siempre Activo"
+    },
+    "analytics": {
+      "title": "Cookies de Análisis",
+      "description": "Nos ayudan a comprender cómo interactúan los visitantes con nuestro sitio web mediante la recopilación de datos de uso anónimos.",
+      "items": [
+        {
+          "name": "Google Analytics",
+          "status": "Activo",
+          "description": "Recopila información anónima sobre cómo los visitantes utilizan nuestro sitio web."
+        }
+      ]
+    },
+    "marketing": {
+      "title": "Cookies de Marketing",
+      "description": "Se utilizan para mostrar anuncios relevantes y medir la efectividad de las campañas publicitarias.",
+      "items": [
+        {
+          "name": "Anuncios Personalizados",
+          "status": "Inactivo",
+          "description": "Puede mostrarle anuncios relevantes basados en sus intereses."
+        }
+      ]
+    },
+    "save": "Guardar Preferencias",
+    "saved": "¡Configuración guardada!",
+    "preferences": {
+      "items": [
+        {
+          "name": "Preferencias del Usuario",
+          "status": "Activo",
+          "description": "Guarda sus preferencias de idioma y configuraciones del sitio web."
+        }
+      ],
+      "title": "Cookies de Preferencias",
+      "description": "Recuerdan sus configuraciones, como las preferencias de idioma y tema."
+    },
+    "consentManagement": "Gestión del Consentimiento: Puede cambiar su configuración de cookies en cualquier momento. Tenga en cuenta que deshabilitar ciertas cookies puede afectar la funcionalidad del sitio web.",
+    "rejectAll": "Rechazar Todas"
+  },
+  "officialManagement": {
+    "title": "Acerca de Plaza Juan Barón",
+    "text": "Plaza Juan Barón es un famoso parque urbano en Santo Domingo, que cuenta con hermosos paisajes y un rico valor cultural. Es un lugar de ocio favorito para los residentes locales y turistas."
+  },
+  "historyTimeline": {
+    "title": "Cronología Histórica",
+    "items": [
+      {
+        "year": "Período Inicial",
+        "title": "Período Inicial: Construcción de la Plaza",
+        "plaque": "Paisaje Urbano (Plaza)",
+        "description": "La construcción de Plaza Juan Barón tenía como objetivo proporcionar un hermoso espacio público de ocio para los ciudadanos de Santo Domingo, y ha sido considerada durante mucho tiempo como un importante espacio público urbano por los residentes locales."
+      },
+      {
+        "year": "Siglo XX",
+        "title": "Siglo XX: Mejora de Instalaciones",
+        "plaque": "Desarrollo Urbano (Construcción de la Plaza)",
+        "description": "Con el desarrollo de Santo Domingo, la plaza mejoró gradualmente los senderos para caminatas y las instalaciones de ocio, convirtiéndose en un lugar importante para el ocio y entretenimiento de los ciudadanos."
+      },
+      {
+        "year": "Siglo XXI",
+        "title": "Siglo XXI: Hito Urbano",
+        "plaque": "Identidad Urbana (Espacio Público)",
+        "description": "Al entrar en el siglo XXI, con su hermoso ambiente e importante valor cultural, ha atraído a más turistas y se ha convertido en un importante espacio público urbano en Santo Domingo."
+      }
+    ],
+    "guideTitle": "Consejo de Guía para Visitantes",
+    "guideContent": "Al visitar, puede comenzar paseando desde la entrada principal en P.º Pdte. Billini; luego camine alrededor de la plaza para disfrutar de los paisajes y el follaje; si tiene suficiente tiempo, puede descansar en las áreas de ocio y sentir la vida urbana local. Finalmente, explore el paisaje urbano alrededor de la plaza y sienta el encanto de la capital dominicana."
+  }
+}
