@@ -16,10 +16,7 @@
     "rating": "4.5",
     "reviewCount": "10,912",
     "hours": "Daily 16:00–00:00",
-    "openMaps": "View Location",
-    "statusOpen": "🟢 Open Now",
-    "statusClosed": "🔴 Closed (Opens 16:00)",
-    "sunset": "Sunset"
+    "openMaps": "View Location"
   },
   "intro": {
     "title": "About Plaza Juan Barón",
