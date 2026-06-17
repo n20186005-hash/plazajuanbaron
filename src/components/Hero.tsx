@@ -1,4 +1,5 @@
 import { useTranslations } from 'next-intl';
+import StatusWeatherWidget from './StatusWeatherWidget';
 
 export default function Hero() {
   const t = useTranslations('hero');
@@ -55,6 +56,9 @@ export default function Hero() {
               <span className="text-white text-sm">{t('openMaps')}</span>
             </a>
           </div>
+
+          {/* Status and Weather Widget */}
+          <StatusWeatherWidget />
         </div>
       </div>
 

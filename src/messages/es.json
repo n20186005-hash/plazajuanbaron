@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Plaza Juan Barón | Plaza Juan Barón",
-    "description": "Explora la Plaza Juan Barón en Santo Domingo, República Dominicana. Un hermoso parque urbano y un lugar de ocio favorito para los residentes locales y turistas."
+    "description": "Explora la Plaza Juan Barón en Santo Domingo, República Dominicana. No es solo un excelente mirador junto al mar, sino también la opción principal para que los lugareños disfruten de la comida, reuniones familiares y experimenten la vibrante vida nocturna dominicana."
   },
   "header": {
     "home": "Inicio",
@@ -12,15 +12,18 @@
   },
   "hero": {
     "title": "Plaza Juan Barón",
-    "subtitle": "Plaza Juan Barón · Santo Domingo, República Dominicana",
+    "subtitle": "La intersección perfecta de la brisa del Mar Caribe y la vida nocturna de Santo Domingo",
     "rating": "4.5",
     "reviewCount": "10,912",
-    "hours": "Parque",
-    "openMaps": "Ver Ubicación"
+    "hours": "Diariamente 16:00–00:00",
+    "openMaps": "Ver Ubicación",
+    "statusOpen": "🟢 Abierto",
+    "statusClosed": "🔴 Cerrado (Abre 16:00)",
+    "sunset": "Atardecer"
   },
   "intro": {
-    "title": "Explora la Plaza Juan Barón",
-    "description": "La Plaza Juan Barón se encuentra en P.º Pdte. Billini, Santo Domingo, República Dominicana. Es un hermoso parque urbano y un lugar de ocio favorito para los residentes locales y turistas. El parque se ha convertido en un importante espacio público en Santo Domingo con su hermoso ambiente y ubicación conveniente.",
+    "title": "Sobre Plaza Juan Barón",
+    "description": "La Plaza Juan Barón está ubicada a lo largo de la famosa Avenida George Washington (Malecón) en Santo Domingo, justo al lado del magnífico Mar Caribe. No es solo un excelente mirador junto al mar, sino también la opción principal para que los lugareños disfruten de la comida, reuniones familiares y experimenten la vibrante vida nocturna dominicana.",
     "visitGuide": {
       "title": "Consejos de Visita",
       "items": [
@@ -32,18 +35,17 @@
       ]
     },
     "alsoKnownAs": {
-      "title": "Destacados",
+      "title": "Puntos Destacados",
       "items": [
-        "Hermoso Ambiente: El parque tiene amplios espacios de ocio y hermosos paisajes, siendo un lugar ideal para relajarse.",
-        "Ubicación Conveniente: Ubicado en el centro de Santo Domingo con transporte conveniente.",
-        "Valor Cultural: Como espacio público urbano, tiene un importante valor social y cultural.",
-        "Entrada Gratuita: El parque es gratuito y está abierto al público, un gran lugar para el ocio y entretenimiento."
+        "🌊 Impresionantes vistas al Mar Caribe: Con una excelente vista abierta, es el lugar perfecto para disfrutar del atardecer caribeño y la brisa marina.",
+        "🍔 Centro de comida callejera auténtica: El área alrededor de la plaza está llena de puestos de comida, lo que la convierte en un gran lugar para probar la comida callejera dominicana (como empanadas y chimichurris).",
+        "🎡 Rico entretenimiento familiar: Ofrece karts, juegos mecánicos para niños y diversas celebraciones festivas, llenas de ambiente local."
       ]
     }
   },
   "route": {
-    "title": "Ruta de Visita",
-    "overview": "La ruta ideal para explorar la Plaza Juan Barón:",
+    "title": "Ruta y Consejos",
+    "overview": "Mejor forma de visitar: Llegue alrededor de las 17:30, dé un paseo por el paseo marítimo para disfrutar del impresionante atardecer caribeño. Al caer la noche (la plaza está abierta hasta la medianoche), disfrute de una cena auténtica en los puestos de comida y sienta la apasionada música y atmósfera local.",
     "steps": [
       "Comienza en la entrada principal en P.º Pdte. Billini.",
       "Camina por los senderos y disfruta de los paisajes del parque y el follaje.",
@@ -52,9 +54,8 @@
     ],
     "supplementsTitle": "Consejos Adicionales de Visita",
     "supplements": [
-      "Se recomienda ir por la tarde o noche cuando el clima es más fresco.",
-      "Presta atención al horario de apertura del parque (16:00–00:00) y organiza tu itinerario razonablemente.",
-      "Por favor, cuida el ambiente del parque y llévate tu basura."
+      "La plaza solo se anima después de las 16:00. Si vas durante el día, es posible que encuentres la mayoría de los puestos cerrados.",
+      "Puede hacer viento junto al mar por la noche, por lo que se recomienda llevar una chaqueta ligera."
     ]
   },
   "knowledge": {
@@ -98,7 +99,7 @@
   "hours": {
     "title": "Horarios de Apertura",
     "outdoor": "Horario del Parque",
-    "outdoorTime": "Diariamente 16:00–00:00",
+    "outdoorTime": "16:00–00:00",
     "lighthouse": "Mejor Época para Visitar",
     "summer": "Tarde y Noche",
     "summerTime": "Las visitas por la tarde o noche ofrecen la mejor experiencia",
@@ -222,7 +223,7 @@
   "mapSection": {
     "title": "Ubicación y Mapa",
     "subtitle": "F474+RWW, P.º Pdte. Billini, Santo Domingo 10208, República Dominicana",
-    "openMaps": "Ver en Google Maps"
+    "openMaps": "Obtener Indicaciones"
   },
   "footer": {
     "rights": "© 2026 Plaza Juan Barón. Todos los derechos reservados.",
@@ -349,25 +350,25 @@
     "text": "Plaza Juan Barón es un famoso parque urbano en Santo Domingo, que cuenta con hermosos paisajes y un rico valor cultural. Es un lugar de ocio favorito para los residentes locales y turistas."
   },
   "historyTimeline": {
-    "title": "Cronología Histórica",
+    "title": "Experiencia y Características",
     "items": [
       {
-        "year": "Período Inicial",
-        "title": "Período Inicial: Construcción de la Plaza",
-        "plaque": "Paisaje Urbano (Plaza)",
-        "description": "La construcción de Plaza Juan Barón tenía como objetivo proporcionar un hermoso espacio público de ocio para los ciudadanos de Santo Domingo, y ha sido considerada durante mucho tiempo como un importante espacio público urbano por los residentes locales."
+        "year": "Atardecer",
+        "title": "Atardecer junto al mar",
+        "plaque": "Vistas al Mar",
+        "description": "Con una excelente vista abierta, es el lugar perfecto para disfrutar del atardecer caribeño y la brisa marina."
       },
       {
-        "year": "Siglo XX",
-        "title": "Siglo XX: Mejora de Instalaciones",
-        "plaque": "Desarrollo Urbano (Construcción de la Plaza)",
-        "description": "Con el desarrollo de Santo Domingo, la plaza mejoró gradualmente los senderos para caminatas y las instalaciones de ocio, convirtiéndose en un lugar importante para el ocio y entretenimiento de los ciudadanos."
+        "year": "Comida",
+        "title": "Comida Auténtica",
+        "plaque": "Comida Callejera",
+        "description": "El área alrededor de la plaza está llena de puestos de comida, lo que la convierte en un gran lugar para probar la comida callejera dominicana (como empanadas y chimichurris)."
       },
       {
-        "year": "Siglo XXI",
-        "title": "Siglo XXI: Hito Urbano",
-        "plaque": "Identidad Urbana (Espacio Público)",
-        "description": "Al entrar en el siglo XXI, con su hermoso ambiente e importante valor cultural, ha atraído a más turistas y se ha convertido en un importante espacio público urbano en Santo Domingo."
+        "year": "Familia",
+        "title": "Entretenimiento Familiar",
+        "plaque": "Actividades Familiares",
+        "description": "Ofrece karts, juegos mecánicos para niños y diversas celebraciones festivas, llenas de ambiente local."
       }
     ],
     "guideTitle": "Consejo de Guía para Visitantes",

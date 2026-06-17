@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Plaza Juan Barón | Juan Barón Square",
-    "description": "Explore Plaza Juan Barón in Santo Domingo, Dominican Republic. A beautiful urban park and a favorite leisure place for local residents and tourists."
+    "description": "Explore Plaza Juan Barón in Santo Domingo, Dominican Republic. It's not only a great seaside viewpoint but also the top choice for locals to enjoy food, family gatherings, and experience the vibrant Dominican nightlife."
   },
   "header": {
     "home": "Home",
@@ -12,15 +12,18 @@
   },
   "hero": {
     "title": "Plaza Juan Barón",
-    "subtitle": "Juan Barón Square · Santo Domingo, Dominican Republic",
+    "subtitle": "The Perfect Intersection of Caribbean Sea Breeze and Santo Domingo Nightlife",
     "rating": "4.5",
     "reviewCount": "10,912",
-    "hours": "Park",
-    "openMaps": "View Location"
+    "hours": "Daily 16:00–00:00",
+    "openMaps": "View Location",
+    "statusOpen": "🟢 Open Now",
+    "statusClosed": "🔴 Closed (Opens 16:00)",
+    "sunset": "Sunset"
   },
   "intro": {
-    "title": "Explore Plaza Juan Barón",
-    "description": "Plaza Juan Barón is located at P.º Pdte. Billini, Santo Domingo, Dominican Republic. It is a beautiful urban park and a favorite leisure place for local residents and tourists. The park has become an important public space in Santo Domingo with its beautiful environment and convenient location.",
+    "title": "About Plaza Juan Barón",
+    "description": "Plaza Juan Barón is located along the famous George Washington Avenue (Malecón) in Santo Domingo, right next to the magnificent Caribbean Sea. It's not only a great seaside viewpoint but also the top choice for locals to enjoy food, family gatherings, and experience the vibrant Dominican nightlife.",
     "visitGuide": {
       "title": "Visiting Tips",
       "items": [
@@ -32,18 +35,17 @@
       ]
     },
     "alsoKnownAs": {
-      "title": "Highlights",
+      "title": "Core Highlights",
       "items": [
-        "Beautiful Environment: The park has spacious leisure spaces and beautiful landscapes, making it an ideal place to relax.",
-        "Convenient Location: Located in the city center of Santo Domingo with convenient transportation.",
-        "Cultural Value: As an urban public space, it has important social and cultural value.",
-        "Free Admission: The park is free and open to the public, a great place for leisure and entertainment."
+        "🌊 Stunning Caribbean Sea Views: With a great open view, it's the perfect spot to enjoy the Caribbean sunset and sea breeze.",
+        "🍔 Authentic Street Food Hub: The area around the plaza is packed with food stalls, making it a great place to try Dominican street food (like Empanadas and Chimichurris burgers).",
+        "🎡 Rich Family Entertainment: Offers go-karts, children's amusement rides, and various holiday celebrations, full of local atmosphere."
       ]
     }
   },
   "route": {
-    "title": "Tour Route",
-    "overview": "The ideal route to explore Plaza Juan Barón:",
+    "title": "Tour Route & Tips",
+    "overview": "Best way to visit: Arrive around 17:30, take a walk along the seaside promenade to enjoy the stunning Caribbean sunset. After nightfall (the plaza is open until midnight), enjoy an authentic dinner at the food stalls and feel the passionate local music and atmosphere.",
     "steps": [
       "Start at the main entrance at P.º Pdte. Billini.",
       "Walk along the paths and enjoy the park's landscapes and greenery.",
@@ -52,9 +54,8 @@
     ],
     "supplementsTitle": "Additional Tour Tips",
     "supplements": [
-      "It's recommended to go in the afternoon or evening when the weather is cooler.",
-      "Pay attention to the park's opening hours (16:00–00:00) and arrange your itinerary reasonably.",
-      "Please take care of the park environment and take your garbage with you."
+      "The plaza only gets lively after 16:00. If you go during the day, you may find most stalls closed.",
+      "It can be windy by the sea at night, so bringing a light jacket is recommended."
     ]
   },
   "knowledge": {
@@ -98,7 +99,7 @@
   "hours": {
     "title": "Opening Hours",
     "outdoor": "Park Opening Hours",
-    "outdoorTime": "Daily 16:00–00:00",
+    "outdoorTime": "16:00–00:00",
     "lighthouse": "Best Time to Visit",
     "summer": "Afternoon to Evening",
     "summerTime": "Afternoon or evening visits offer the best experience",
@@ -222,7 +223,7 @@
   "mapSection": {
     "title": "Location & Map",
     "subtitle": "F474+RWW, P.º Pdte. Billini, Santo Domingo 10208, Dominican Republic",
-    "openMaps": "View on Google Maps"
+    "openMaps": "Get Directions"
   },
   "footer": {
     "rights": "© 2026 Plaza Juan Barón. All rights reserved.",
@@ -349,25 +350,25 @@
     "text": "Plaza Juan Barón is a famous urban park in Santo Domingo, featuring beautiful landscapes and rich cultural value. It is a favorite leisure place for local residents and tourists."
   },
   "historyTimeline": {
-    "title": "Historical Timeline",
+    "title": "Square Features Experience",
     "items": [
       {
-        "year": "Early Period",
-        "title": "Early Period: Square Construction",
-        "plaque": "Urban Landscape (Square)",
-        "description": "The construction of Plaza Juan Barón aimed to provide a beautiful public leisure space for Santo Domingo citizens, and has long been regarded as an important urban public space by local residents."
+        "year": "Seaside Sunset",
+        "title": "Seaside Sunset",
+        "plaque": "Stunning Sea Views",
+        "description": "With a great open view, it's the perfect spot to enjoy the Caribbean sunset and sea breeze."
       },
       {
-        "year": "20th Century",
-        "title": "20th Century: Facility Improvement",
-        "plaque": "Urban Development (Square Construction)",
-        "description": "With the development of Santo Domingo, the square gradually improved walking paths and leisure facilities, becoming an important place for citizens' leisure and entertainment."
+        "year": "Authentic Food",
+        "title": "Authentic Food",
+        "plaque": "Street Food",
+        "description": "The area around the plaza is packed with food stalls, making it a great place to try Dominican street food (like Empanadas and Chimichurris burgers)."
       },
       {
-        "year": "21st Century",
-        "title": "21st Century: Urban Landmark",
-        "plaque": "Urban Identity (Public Space)",
-        "description": "Entering the 21st century, with its beautiful environment and important cultural value, it has attracted more tourists and become an important urban public space in Santo Domingo."
+        "year": "Family Entertainment",
+        "title": "Family Entertainment",
+        "plaque": "Family Activities",
+        "description": "Offers go-karts, children's amusement rides, and various holiday celebrations, full of local atmosphere."
       }
     ],
     "guideTitle": "Visitor Guide Tip",

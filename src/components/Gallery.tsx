@@ -32,7 +32,7 @@ export default function Gallery() {
 
   const photos = photoFiles.map((file, i) => ({
     src: `/gallery/${file}`,
-    alt: captions?.[i] || `Plaza de la Hispanidad or Spain ${i + 1}`,
+    alt: captions?.[i] || `Plaza Juan Barón ${i + 1}`,
   }));
 
   const visiblePhotos = photos;
@@ -65,18 +65,17 @@ export default function Gallery() {
           <div className="w-12 h-0.5 mb-10" style={{ background: 'var(--accent)' }} />
 
           <div className="relative">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
+            <div className="columns-2 md:columns-3 lg:columns-4 gap-4 space-y-4">
               {visiblePhotos.map((photo, i) => (
                 <div
                   key={i}
-                  className={`gallery-item relative group cursor-pointer ${i === 0 ? 'col-span-2 row-span-2' : ''}`}
+                  className="gallery-item relative group cursor-pointer break-inside-avoid"
                   onClick={() => openLightbox(i)}
                 >
                   <img
                     src={photo.src}
                     alt={photo.alt}
-                    className="w-full h-full object-cover rounded-lg"
-                    style={{ minHeight: i === 0 ? '400px' : '180px' }}
+                    className="w-full h-auto object-cover rounded-lg"
                     loading="lazy"
                   />
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors rounded-lg flex items-end">
