@@ -490,13 +490,34 @@
   },
   "weatherSection": {
     "title": "Weather in Santo Domingo",
-    "forecastTitle": "Forecast for the coming days",
+    "subtitle": "Live conditions and a 7-day outlook to help you plan — always confirm with your local meteorological service before heading out.",
+    "forecastTitle": "7-day outlook",
     "now": "Now in Santo Domingo",
     "today": "Today",
     "humidity": "Humidity",
+    "precip": "Chance of rain",
     "wind": "Wind",
     "feelsLike": "Feels like",
     "fallback": "Weather data is temporarily unavailable. Before you head out, please check your local weather forecast.",
+    "humidityWord": {
+      "low": "Dry",
+      "mid": "Comfortable",
+      "high": "Humid"
+    },
+    "windWord": {
+      "light": "Light breeze",
+      "moderate": "Moderate wind",
+      "strong": "Strong wind"
+    },
+    "adviceTitle": "Smart advice for today",
+    "alertTitle": "Weather alert",
+    "alertTemplate": "A weather alert has been issued: {name}. Consider adjusting your plans, avoid exposed seaside areas and keep following local updates.",
+    "groups": {
+      "outfit": "What to wear",
+      "plan": "How to plan your visit",
+      "gear": "What to pack",
+      "risk": "Safety notes"
+    },
     "conditions": {
       "sunny": "Clear sky",
       "partlyCloudy": "Partly cloudy",
@@ -506,6 +527,42 @@
       "rain": "Rain",
       "snow": "Snow",
       "thunderstorm": "Thunderstorm"
+    },
+    "advice": {
+      "outfit": {
+        "heatOutfit": "Temperatures are high: choose light, breathable, light-coloured clothing.",
+        "diffOutfit": "Big day-to-night temperature swing: bring a light layer.",
+        "coldOutfit": "Cold conditions: dress warmly (thick coat, scarf)."
+      },
+      "plan": {
+        "rainLikely": "Rain is likely: consider postponing long outdoor or beach plans and prioritise indoor venues.",
+        "rainLight": "Light rain or drizzle: pavements may be slippery, watch your step along the promenade.",
+        "rainHeavyPlan": "Heavy rain: not a day for long outdoor time; boat trips and sea activities may be suspended.",
+        "thunderPlan": "Thunderstorms: outdoor and water activities are likely closed — prefer indoor plans or another day.",
+        "uvExtremePlan": "Extreme UV: limit time in the sun and choose shaded routes.",
+        "heatPlan": "Avoid the midday heat: plan outdoor sightseeing for the early morning or late afternoon.",
+        "windMidPlan": "Breezy by the sea: boat rides and some open-air rides may stop; keep your belongings secured.",
+        "windHighPlan": "Strong winds: sea and high-altitude activities are likely closed — indoor plans are safer.",
+        "clearPlan": "Great for a walk along the Malecón — perfect for watching the sunset over the sea.",
+        "cloudyPlan": "No harsh sun and soft light: ideal for a longer outdoor stroll and photos."
+      },
+      "gear": {
+        "gearLikely": "A compact umbrella or lightweight rain jacket (rain is possible).",
+        "gearLight": "A compact umbrella; slip-resistant shoes.",
+        "gearHeavy": "A raincoat works best; skip long umbrellas in the coastal wind.",
+        "gearThunder": "Head indoors if it starts; do not carry a metal long umbrella.",
+        "gearHeat": "Plenty of drinking water; a small fan or cooling wipes help.",
+        "gearUv": "Sunscreen, sunglasses and a sun hat.",
+        "gearWindMid": "Hats or scarves may blow away — secure them or pack them away.",
+        "gearWindHigh": "Slip-resistant shoes; skip umbrellas in very strong wind.",
+        "gearFog": "A face mask may help; if driving, go slowly with fog lights."
+      },
+      "risk": {
+        "rainHeavyRisk": "Heavy rain: avoid the rocks by the sea and low-lying flood-prone spots.",
+        "thunderRisk": "Lightning risk: do not stay on open seawalls or under trees, and do not swim in the sea.",
+        "windHighRisk": "Strong winds: stay away from billboards and coastal rocks; watch children closely.",
+        "fogRisk": "Low visibility: ferries and flights may be delayed; views will be limited."
+      }
     }
   },
   "amenitiesSection": {

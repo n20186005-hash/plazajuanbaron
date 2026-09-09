@@ -490,13 +490,34 @@
   },
   "weatherSection": {
     "title": "El Tiempo en Santo Domingo",
-    "forecastTitle": "Pronóstico para los próximos días",
+    "subtitle": "Condiciones en vivo y pronóstico a 7 días para ayudarte a planificar. Antes de salir, confirma siempre el pronóstico de tu servicio meteorológico local.",
+    "forecastTitle": "Pronóstico a 7 días",
     "now": "Ahora en Santo Domingo",
     "today": "Hoy",
     "humidity": "Humedad",
+    "precip": "Prob. de lluvia",
     "wind": "Viento",
     "feelsLike": "Sensación térmica",
     "fallback": "Los datos meteorológicos no están disponibles en este momento. Antes de salir, consulta el pronóstico de tu servicio meteorológico local.",
+    "humidityWord": {
+      "low": "Seca",
+      "mid": "Agradable",
+      "high": "Húmeda"
+    },
+    "windWord": {
+      "light": "Viento suave",
+      "moderate": "Viento moderado",
+      "strong": "Viento fuerte"
+    },
+    "adviceTitle": "Recomendaciones para hoy",
+    "alertTitle": "Alerta meteorológica",
+    "alertTemplate": "Se ha emitido una alerta meteorológica: {name}. Se recomienda ajustar los planes, evitar las zonas costeras expuestas y seguir la información oficial.",
+    "groups": {
+      "outfit": "Qué vestir",
+      "plan": "Cómo organizar la visita",
+      "gear": "Qué llevar",
+      "risk": "Avisos de seguridad"
+    },
     "conditions": {
       "sunny": "Despejado",
       "partlyCloudy": "Parcialmente nublado",
@@ -506,6 +527,42 @@
       "rain": "Lluvia",
       "snow": "Nieve",
       "thunderstorm": "Tormenta eléctrica"
+    },
+    "advice": {
+      "outfit": {
+        "heatOutfit": "Hace calor: ropa ligera, transpirable y de colores claros.",
+        "diffOutfit": "Gran diferencia de temperatura entre día y noche: lleva una chaqueta ligera.",
+        "coldOutfit": "Temperaturas bajas: abrígate (chaqueta gruesa, bufanda)."
+      },
+      "plan": {
+        "rainLikely": "Alta probabilidad de lluvia: valora posponer los planes largos al aire libre o en la playa y prioriza los sitios interiores.",
+        "rainLight": "Lluvia ligera o llovizna: el suelo estará resbaladizo, ten cuidado al caminar por el paseo.",
+        "rainHeavyPlan": "Lluvia intensa: no conviene pasar mucho tiempo al aire libre; los paseos en barco y las actividades en el mar pueden suspenderse.",
+        "thunderPlan": "Tormentas eléctricas: las actividades al aire libre y acuáticas probablemente estarán cerradas; mejor un plan interior u otro día.",
+        "uvExtremePlan": "Radiación UV extrema: evita las horas de mayor sol y elige rutas con sombra.",
+        "heatPlan": "Evita el calor del mediodía: programa la visita a primera hora o al final de la tarde.",
+        "windMidPlan": "Viento notable junto al mar: los paseos en barco y algunas atracciones al aire libre pueden detenerse; sujeta tus pertenencias.",
+        "windHighPlan": "Vientos fuertes: las actividades náuticas y de altura probablemente estarán cerradas; mejor un plan interior.",
+        "clearPlan": "Ideal para pasear por el Malecón; al atardecer se disfruta la puesta de sol sobre el mar.",
+        "cloudyPlan": "Sin sol intenso y con luz suave: perfecto para caminar al aire libre y hacer fotos."
+      },
+      "gear": {
+        "gearLikely": "Paraguas compacto o impermeable ligero (puede llover).",
+        "gearLight": "Paraguas compacto; calzado antideslizante.",
+        "gearHeavy": "Mejor un impermeable; evita el paraguas largo con viento costero.",
+        "gearThunder": "Refúgiate en un interior si empieza; no lleves paraguas largo metálico.",
+        "gearHeat": "Agua abundante; ayudan un abanico pequeño o toallitas refrescantes.",
+        "gearUv": "Protector solar, gafas de sol y gorra.",
+        "gearWindMid": "Los gorros o bufandas pueden volarse: sujétalos o guárdalos.",
+        "gearWindHigh": "Calzado antideslizante; evita el paraguas con viento muy fuerte.",
+        "gearFog": "Una mascarilla puede ayudar; si conduces, ve despacio con luces antiniebla."
+      },
+      "risk": {
+        "rainHeavyRisk": "Lluvia intensa: evita las rocas junto al mar y las zonas bajas que puedan inundarse.",
+        "thunderRisk": "Riesgo de rayos: no permanezcas en malecones abiertos ni bajo árboles, y no te bañes en el mar.",
+        "windHighRisk": "Vientos fuertes: aléjate de vallas publicitarias y rocas costeras; vigila de cerca a los niños.",
+        "fogRisk": "Baja visibilidad: los ferris y los vuelos pueden retrasarse; las vistas serán limitadas."
+      }
     }
   },
   "amenitiesSection": {

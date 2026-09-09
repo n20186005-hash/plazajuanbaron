@@ -489,14 +489,35 @@
     ]
   },
   "weatherSection": {
-    "title": "圣多明戈天气与未来预报",
-    "forecastTitle": "未来多日预报",
+    "title": "圣多明戈天气与 7 日预报",
+    "subtitle": "实时天气与 7 日预报，方便您规划出行；出门前请以当地气象部门的最新预报为准。",
+    "forecastTitle": "未来 7 天预报",
     "now": "圣多明戈当前天气",
     "today": "今天",
     "humidity": "湿度",
+    "precip": "降水概率",
     "wind": "风速",
     "feelsLike": "体感温度",
     "fallback": "天气数据暂时不可用。出门前请留意当地天气预报。",
+    "humidityWord": {
+      "low": "干燥",
+      "mid": "适中",
+      "high": "潮湿"
+    },
+    "windWord": {
+      "light": "微风",
+      "moderate": "风较大",
+      "strong": "大风"
+    },
+    "adviceTitle": "今日出行建议",
+    "alertTitle": "气象预警",
+    "alertTemplate": "已发布气象预警：{name}。建议调整行程，尽量避免前往海边等危险区域，并密切关注当地天气变化。",
+    "groups": {
+      "outfit": "出行穿搭",
+      "plan": "游玩安排",
+      "gear": "随身物品",
+      "risk": "风险提醒"
+    },
     "conditions": {
       "sunny": "晴",
       "partlyCloudy": "局部多云",
@@ -506,6 +527,42 @@
       "rain": "雨",
       "snow": "雪",
       "thunderstorm": "雷阵雨"
+    },
+    "advice": {
+      "outfit": {
+        "heatOutfit": "气温较高，建议轻薄透气的浅色衣物。",
+        "diffOutfit": "昼夜温差较大，备一件薄外套方便增减。",
+        "coldOutfit": "气温偏低，注意保暖（厚外套、围巾）。"
+      },
+      "plan": {
+        "rainLikely": "大概率有雨：长时间户外与海边活动建议改期，可优先安排室内场馆。",
+        "rainLight": "有小雨或毛毛雨：路面湿滑，沿海散步、拍照时注意脚下。",
+        "rainHeavyPlan": "降雨较强：不建议长时间户外游玩，海上项目与游船可能暂停。",
+        "thunderPlan": "雷雨天气：户外与水上项目大概率关闭，建议改为室内活动或改日再来。",
+        "uvExtremePlan": "紫外线极强：减少暴晒时段，尽量选择有遮挡的路线。",
+        "heatPlan": "避开正午高温时段，户外游览安排在清晨或傍晚。",
+        "windMidPlan": "海边风较大：游船与部分露天项目可能停运，注意固定随身物品。",
+        "windHighPlan": "大风天气：海上与高空类项目大概率关闭，建议以室内活动为主。",
+        "clearPlan": "天气晴好，适合沿海散步；傍晚可观海上日落。",
+        "cloudyPlan": "无暴晒、光线柔和，适合长时间户外散步与拍照。"
+      },
+      "gear": {
+        "gearLikely": "折叠伞或便携雨衣（有降雨可能）。",
+        "gearLight": "折叠伞；防滑鞋。",
+        "gearHeavy": "雨衣更稳妥；海边风大时不建议长柄伞。",
+        "gearThunder": "若遇雷电就近到室内躲避，勿携带金属长柄伞。",
+        "gearHeat": "充足饮用水，可备小风扇或清凉湿巾。",
+        "gearUv": "防晒霜、墨镜、遮阳帽。",
+        "gearWindMid": "帽子、丝巾易被吹落，请固定或收好。",
+        "gearWindHigh": "穿防滑鞋；风力很大时不建议撑伞。",
+        "gearFog": "可佩戴口罩；驾车请开雾灯慢行。"
+      },
+      "risk": {
+        "rainHeavyRisk": "降雨较强：请避开海边礁石与低洼积水地带。",
+        "thunderRisk": "谨防雷电：勿在开阔海堤、树下避雨，切勿下海戏水。",
+        "windHighRisk": "大风：请远离广告牌、招牌与海边礁石，照看好儿童。",
+        "fogRisk": "能见度低：渡轮、航班易延误，观景效果不佳。"
+      }
     }
   },
   "amenitiesSection": {

@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "images:optimize": "node scripts/optimize-images.mjs"
+    "prebuild": "node scripts/fetch-weather.mjs",
+    "images:optimize": "node scripts/optimize-images.mjs",
+    "fetch:weather": "node scripts/fetch-weather.mjs"
   },
   "dependencies": {
     "next": "^15.1.0",
