@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Plaza Juan Barón (Santo Domingo) - Guía del Visitante y Ubicación",
-    "description": "Descubre la Plaza Juan Barón, la emblemática plaza junto al mar y parque público del Malecón de Santo Domingo, en el Distrito Nacional, República Dominicana. Consulta el mapa de ubicación, los horarios, los lugares de interés cercanos y consejos de viaje."
+    "title": "Plaza Juan Barón | Parque y Gastronomía en el Malecón de Santo Domingo",
+    "description": "Visita la Plaza Juan Barón en el Malecón de Santo Domingo: restaurantes, comida rápida, juegos infantiles, eventos y vistas al mar. Consulta horarios y ubicación."
   },
   "header": {
     "home": "Inicio",
@@ -235,6 +235,7 @@
     "terms": "Términos de Servicio",
     "cookies": "Configuración de Cookies",
     "officialResourcesTitle": "Recursos Oficiales",
+    "viewOnMaps": "Ver ficha en Google Maps",
     "officialLinks": {
       "adn": {
         "name": "Ayuntamiento del Distrito Nacional de Santo Domingo",
@@ -454,6 +455,10 @@
       {
         "q": "¿Cómo puedo contactar con la Plaza Juan Barón?",
         "a": "El número de teléfono del listado de Google de la plaza es el +1 809-689-9476. Para información oficial, consulte el ayuntamiento del Distrito Nacional (adn.gob.do)."
+      },
+      {
+        "q": "¿Cómo se escribe correctamente: Plaza Juan Barón o Plaza Juan Varon?",
+        "a": "El nombre oficial es Plaza Juan Barón y se escribe con B, tal como aparece en los mapas y en la señalización del lugar. La forma «Plaza Juan Varon», con V, es una falta de ortografía muy habitual en español porque la B y la V se pronuncian igual; con cualquiera de las dos formas llegarás a la misma plaza del Malecón de Santo Domingo."
       }
     ]
   },

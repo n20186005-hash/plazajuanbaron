@@ -18,6 +18,7 @@ import { Suspense } from 'react';
 import FaqSection from '@/components/FaqSection';
 import SourcesSection from '@/components/SourcesSection';
 import WeatherForecast from '@/components/WeatherForecast';
+import TideTimes from '@/components/TideTimes';
 import AmenitiesSection from '@/components/AmenitiesSection';
 import CultureSection from '@/components/CultureSection';
 import Footer from '@/components/Footer';
@@ -33,10 +34,10 @@ export default async function HomePage({ params }: Props) {
   const messages = (await import(`@/messages/${locale}.json`)).default as any;
   const selfUrl = `${SITE.baseUrl}/${locale}`;
 
-  // 1. TouristAttraction structured data (with @id + image)
+  // 1. TouristAttraction + Park structured data (with @id + image + NAP + Google rating)
   const attractionLd = {
     '@context': 'https://schema.org',
-    '@type': 'TouristAttraction',
+    '@type': ['TouristAttraction', 'Park'],
     '@id': `${selfUrl}#attraction`,
     name: SITE.fullName,
     alternateName: [
@@ -46,6 +47,7 @@ export default async function HomePage({ params }: Props) {
     description: messages?.meta?.description,
     url: selfUrl,
     image: [OG_IMAGE_URL],
+    telephone: SITE.phoneE164,
     isAccessibleForFree: true,
     address: {
       '@type': 'PostalAddress',
@@ -61,6 +63,11 @@ export default async function HomePage({ params }: Props) {
       longitude: SITE.longitude,
     },
     hasMap: SITE.mapsShareUrl,
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: SITE.rating,
+      reviewCount: Number(SITE.reviewCount.replace(/,/g, '')),
+    },
     sameAs: [SITE.mapsShareUrl, SITE.govtTourismUrl],
   };
 
@@ -91,6 +98,9 @@ export default async function HomePage({ params }: Props) {
         <BasicInfo />
         <Suspense fallback={null}>
           <WeatherForecast locale={locale} />
+        </Suspense>
+        <Suspense fallback={null}>
+          <TideTimes locale={locale} />
         </Suspense>
         <HistoryTimeline />
         <CultureSection />

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Plaza Juan Barón（圣多明戈）- 游客指南与位置",
-    "description": "探索位于多米尼加共和国国家区圣多明戈 Malecón 海滨的 Plaza Juan Barón——这不仅是绝佳的海滨广场与公共公园，更是当地人享受美食、家庭聚会和体验多米尼加夜生活的首选之地。查看位置地图、开放时间、周边景点与旅行贴士。"
+    "title": "Plaza Juan Barón | 圣多明戈海滨步道公园与美食广场",
+    "description": "前往圣多明戈 Malecón 海滨大道上的 Plaza Juan Barón：品尝当地餐厅与小食、体验儿童游乐设施、看海景日落与节庆活动。查看开放时间与到达方式。"
   },
   "header": {
     "home": "首页",
@@ -235,6 +235,7 @@
     "terms": "服务条款",
     "cookies": "Cookie 设置",
     "officialResourcesTitle": "相关资源与资讯",
+    "viewOnMaps": "在 Google Maps 查看商家页面",
     "officialLinks": {
       "adn": {
         "name": "圣多明戈国家特区市政府",
@@ -454,6 +455,10 @@
       {
         "q": "如何联系 Plaza Juan Barón？",
         "a": "广场在 Google 地图资料中的联系电话为 +1 809-689-9476。官方资讯可查阅国家区政府网站 adn.gob.do。"
+      },
+      {
+        "q": "正确写法是 Plaza Juan Barón 还是 Plaza Juan Varon？",
+        "a": "官方名称为 Plaza Juan Barón，其中 Barón 以字母 B 拼写，与地图和现场标识一致。由于西班牙语中 B 与 V 发音相同，Plaza Juan Varon（V 拼写）是常见的拼写错误；无论用哪种拼写搜索，都会指向圣多明戈 Malecón 海滨的同一处广场。"
       }
     ]
   },

@@ -1,5 +1,6 @@
 import { useTranslations } from 'next-intl';
 import { useLocale } from 'next-intl';
+import { SITE } from '@/config/site';
 
 export default function Footer() {
   const t = useTranslations('footer');
@@ -24,9 +25,18 @@ export default function Footer() {
             <p className="text-xs mb-1 leading-relaxed" style={{ color: 'var(--text-muted)' }}>
               {tB('addressValue')}
             </p>
-            <p className="text-xs mb-4" style={{ color: 'var(--text-muted)' }}>
+            <p className="text-xs mb-2" style={{ color: 'var(--text-muted)' }}>
               {tB('phoneValue')}
             </p>
+            <a
+              href={SITE.mapsShareUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs inline-block mb-4 hover:underline"
+              style={{ color: 'var(--accent)' }}
+            >
+              {t('viewOnMaps')}
+            </a>
             <p className="text-xs mb-4" style={{ color: 'var(--text-muted)' }}>
               {t('officialResourcesTitle')}
             </p>

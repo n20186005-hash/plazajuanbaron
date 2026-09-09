@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Plaza Juan Barón (Santo Domingo) - Visitor Guide & Location",
-    "description": "Discover Plaza Juan Barón, the iconic seaside plaza and public park on the Malecón in Santo Domingo, Distrito Nacional, Dominican Republic. View the location map, opening details, nearby landmarks and travel tips."
+    "title": "Plaza Juan Barón | Park & Dining on the Malecón, Santo Domingo",
+    "description": "Visit Plaza Juan Barón on the Malecón in Santo Domingo. Enjoy restaurants, street food, children's rides, events and sea views. Check opening times, location and how to get there."
   },
   "header": {
     "home": "Home",
@@ -235,6 +235,7 @@
     "terms": "Terms of Service",
     "cookies": "Cookie Settings",
     "officialResourcesTitle": "Official Resources",
+    "viewOnMaps": "View listing on Google Maps",
     "officialLinks": {
       "adn": {
         "name": "Santo Domingo National District City Hall",
@@ -454,6 +455,10 @@
       {
         "q": "How can I contact Plaza Juan Barón?",
         "a": "The phone number on the plaza's Google listing is +1 809-689-9476. For official information, please refer to the Distrito Nacional city hall (adn.gob.do)."
+      },
+      {
+        "q": "How is it spelled correctly: Plaza Juan Barón or Plaza Juan Varon?",
+        "a": "The official name is Plaza Juan Barón, spelled with a B, exactly as it appears on maps and on site signage. «Plaza Juan Varon», with a V, is a very common misspelling in Spanish because B and V sound the same; searching either way will lead you to the same plaza on the Malecón in Santo Domingo."
       }
     ]
   },
