@@ -565,6 +565,18 @@
       }
     }
   },
+  "tideSection": {
+    "title": "Tide Times",
+    "subtitle": "Tides in Santo Domingo are small, but knowing when high and low tide fall makes a seafront walk or rocky-shore visit calmer and safer.",
+    "todayTag": "Today's tides",
+    "upcomingTitle": "Tide times — next 6 days",
+    "high": "High tide",
+    "low": "Low tide",
+    "tipsTitle": "By the sea — quick tips",
+    "tipLow": "Around low tide: more of the rocky shore and shallows are exposed — great for close-up exploring and photos, but the rocks can be slippery.",
+    "tipHigh": "Around high tide: water sits closer to the promenade; when waves pick up, keep off the outer edge of the seawall and the rocks.",
+    "tipNote": "Tide data is an astronomical prediction; actual levels are affected by wind and waves — always follow on-site warnings."
+  },
   "amenitiesSection": {
     "title": "Visitor Facilities & Services",
     "intro": "To help you plan your visit, here is an objective overview of the service types available at the plaza and its surroundings. This is a non-profit educational site: we do not recommend specific brands or venues, only categories of services, to stay neutral and objective.",

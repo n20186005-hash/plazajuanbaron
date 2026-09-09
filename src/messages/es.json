@@ -565,6 +565,18 @@
       }
     }
   },
+  "tideSection": {
+    "title": "Las Mareas",
+    "subtitle": "Las mareas en Santo Domingo son pequeñas, pero conocer la hora de la pleamar y la bajamar hace más seguro y tranquilo pasear junto al mar o explorar las rocas.",
+    "todayTag": "Mareas de hoy",
+    "upcomingTitle": "Mareas — próximos 6 días",
+    "high": "Pleamar",
+    "low": "Bajamar",
+    "tipsTitle": "Junto al mar — consejos rápidos",
+    "tipLow": "Alrededor de la bajamar: quedan más expuestas las rocas y las aguas poco profundas, ideales para explorar y hacer fotos; ojo, la roca resbala.",
+    "tipHigh": "Alrededor de la pleamar: el agua se acerca más al paseo; si hay oleaje, no te asomes al borde exterior del malecón ni a las rocas.",
+    "tipNote": "El dato de marea es una predicción astronómica; el nivel real depende del viento y el oleaje. Respeta siempre las señales de seguridad."
+  },
   "amenitiesSection": {
     "title": "Servicios y Equipamientos para el Visitante",
     "intro": "Para que organices mejor tu visita, aquí tienes una guía objetiva de los tipos de servicios disponibles en la plaza y su entorno. Este sitio es un proyecto educativo sin fines de lucro: no recomendamos marcas ni establecimientos concretos, solo categorías de servicios, para mantener la neutralidad y la objetividad.",
