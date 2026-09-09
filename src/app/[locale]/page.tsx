@@ -14,14 +14,16 @@ import TransportSection from '@/components/TransportSection';
 import Gallery from '@/components/Gallery';
 import Reviews from '@/components/Reviews';
 import MapEmbed from '@/components/MapEmbed';
-import { Suspense } from 'react';
 import FaqSection from '@/components/FaqSection';
 import SourcesSection from '@/components/SourcesSection';
 import WeatherForecast from '@/components/WeatherForecast';
 import TideTimes from '@/components/TideTimes';
 import AmenitiesSection from '@/components/AmenitiesSection';
 import CultureSection from '@/components/CultureSection';
+import SeasonalGuide from '@/components/SeasonalGuide';
 import Footer from '@/components/Footer';
+import { getWeatherData } from '@/lib/weather';
+import { getTideData } from '@/lib/tide';
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -33,6 +35,10 @@ export default async function HomePage({ params }: Props) {
 
   const messages = (await import(`@/messages/${locale}.json`)).default as any;
   const selfUrl = `${SITE.baseUrl}/${locale}`;
+
+  // Live weather + tide feed fetched server-side (with cache); both fall back to
+  // committed build-time snapshots, so these sections always render real data.
+  const [weather, tide] = await Promise.all([getWeatherData(), getTideData()]);
 
   // 1. TouristAttraction + Park structured data (with @id + image + NAP + Google rating)
   const attractionLd = {
@@ -93,15 +99,12 @@ export default async function HomePage({ params }: Props) {
 
       <Header />
       <main>
-        <Hero />
+        <Hero weather={weather} />
         <Intro />
         <BasicInfo />
-        <Suspense fallback={null}>
-          <WeatherForecast locale={locale} />
-        </Suspense>
-        <Suspense fallback={null}>
-          <TideTimes locale={locale} />
-        </Suspense>
+        <WeatherForecast data={weather} locale={locale} />
+        <TideTimes data={tide} locale={locale} />
+        <SeasonalGuide messages={messages.seasonalGuide} />
         <HistoryTimeline />
         <CultureSection />
         <LocationSection />

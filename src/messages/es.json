@@ -467,6 +467,11 @@
     "intro": "La información de esta página se ha elaborado a partir de fuentes oficiales gubernamentales e internacionales para mantener esta guía del visitante precisa y actualizada:",
     "items": [
       {
+        "name": "Oficina Nacional de Meteorología de República Dominicana (ONAMET)",
+        "url": "https://www.onamet.gob.do/",
+        "note": "Servicio meteorológico oficial del gobierno; referencia de clima y tiempo (.gob)"
+      },
+      {
         "name": "Ministerio de Turismo de la República Dominicana (MITUR)",
         "url": "https://www.mitur.gob.do/",
         "note": "Ministerio oficial del gobierno (.gob)"
@@ -581,6 +586,46 @@
     "tipLow": "Alrededor de la bajamar: quedan más expuestas las rocas y las aguas poco profundas, ideales para explorar y hacer fotos; ojo, la roca resbala.",
     "tipHigh": "Alrededor de la pleamar: el agua se acerca más al paseo; si hay oleaje, no te asomes al borde exterior del malecón ni a las rocas.",
     "tipNote": "El dato de marea es una predicción astronómica; el nivel real depende del viento y el oleaje. Respeta siempre las señales de seguridad."
+  },
+  "seasonalGuide": {
+    "title": "Organiza tu visita según la temporada",
+    "subtitle": "Santo Domingo es tropical y cálido todo el año; lo que cambia de verdad es la lluvia, la humedad y el estado del mar. Esta tabla resume el clima promedio de largo plazo para que planifiques con los patrones típicos en mente.",
+    "colSeason": "Estación (meses)",
+    "colWeather": "Clima y temperatura",
+    "colSea": "Estado del mar y temperatura del agua",
+    "colNature": "Vida silvestre",
+    "colTip": "Consejos prácticos",
+    "rows": [
+      {
+        "season": "Dic–Feb · Temporada seca",
+        "weather": "La época más fresca y cómoda del año: días de 29–30°C, noches de unos 20°C, poca lluvia, humedad más baja y vientos alisios del noreste.",
+        "sea": "Mar generalmente en calma, de 26–27°C: ideal para pasear por el Malecón, ver el atardecer y disfrutar del paseo marítimo.",
+        "nature": "Aves costeras activas (pelícanos, fragatas); de enero a marzo puedes planear una excursión corta al noreste, a la bahía de Samaná, para ver ballenas jorobadas.",
+        "tip": "Navidad, Año Nuevo y el carnaval son temporada alta: el Malecón se llena; reserva con antelación, llega temprano y lleva una chaqueta ligera para las noches más frescas."
+      },
+      {
+        "season": "Mar–May · De seca a húmeda",
+        "weather": "Cada vez más calor y humedad: marzo sigue siendo bastante seco, pero desde abril–mayo las tardes rondan los 31–32°C y los chaparrones se vuelven más frecuentes.",
+        "sea": "El mar se calienta hasta unos 27–28°C y suele estar tranquilo: perfecto para pasear por la costa a primera hora o al atardecer.",
+        "nature": "Vegetación costera frondosa y aves activas; en Semana Santa la ciudad se llena de visitantes y el paseo marítimo se anima.",
+        "tip": "Semana Santa (mar–abr) trae mucha gente; las lluvias suelen ser chubascos cortos de tarde: lleva paraguas y haz los planes al aire libre por la mañana."
+      },
+      {
+        "season": "Jun–Ago · Lluvias y pleno verano",
+        "weather": "Verano caribeño típico: días de 31–33°C con bochorno, y aguaceros fuertes o tormentas casi cada tarde y noche.",
+        "sea": "El agua más cálida del año, unos 29°C; hay más marejada y, tras lluvias fuertes, el agua cercana a la costa puede enturbiarse: atiende las advertencias de mareas y de la orilla.",
+        "nature": "Máxima actividad marina: la anidación de tortugas marinas alcanza su pico en playas cercanas; pueden aparecer medusas y cardúmenes, así que mantente atento.",
+        "tip": "Haz lo importante por la mañana o a última hora de la tarde y evita el calor del mediodía; no olvides protector solar y agua, y revisa los avisos meteorológicos. Fuera de temporada hay menos gente y mejores precios."
+      },
+      {
+        "season": "Sep–Nov · Transición lluviosa",
+        "weather": "El tramo más lluvioso y húmedo: septiembre–octubre concentran las lluvias dentro de la temporada de huracanes del Atlántico (jun–nov); desde noviembre llueve menos y se acerca la estación seca.",
+        "sea": "El agua sigue cálida, de 28–29°C; la marejada y las rachas son frecuentes: no te acerques al borde exterior del malecón ni a las rocas con viento fuerte o tormentas.",
+        "nature": "La lluvia mantiene frondosa la vegetación costera; tras las tormentas pueden llegar algas y restos a la orilla: respeta los avisos y las limpiezas locales.",
+        "tip": "Consulta pronósticos oficiales y trayectorias de tormentas 1–3 días antes de viajar y elige reservas flexibles; desde noviembre el clima mejora, una época económica y tranquila para visitar."
+      }
+    ],
+    "note": "Nota: esta tabla refleja el clima promedio de largo plazo (normales climáticas de unos 30 años) y describe situaciones típicas, no lo que traerá un año concreto; el estado del mar también depende del viento y la lluvia del día. Consulta siempre el pronóstico oficial y las señales del lugar antes de salir."
   },
   "amenitiesSection": {
     "title": "Servicios y Equipamientos para el Visitante",

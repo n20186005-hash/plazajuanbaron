@@ -467,6 +467,11 @@
     "intro": "The information on this page is compiled from official government and international sources to keep this visitor guide accurate and up to date:",
     "items": [
       {
+        "name": "Dominican National Meteorological Office (ONAMET)",
+        "url": "https://www.onamet.gob.do/",
+        "note": "Official government weather service; weather & climate reference (.gob)"
+      },
+      {
         "name": "Ministry of Tourism of the Dominican Republic (MITUR)",
         "url": "https://www.mitur.gob.do/",
         "note": "Official government ministry (.gob)"
@@ -581,6 +586,46 @@
     "tipLow": "Around low tide: more of the rocky shore and shallows are exposed — great for close-up exploring and photos, but the rocks can be slippery.",
     "tipHigh": "Around high tide: water sits closer to the promenade; when waves pick up, keep off the outer edge of the seawall and the rocks.",
     "tipNote": "Tide data is an astronomical prediction; actual levels are affected by wind and waves — always follow on-site warnings."
+  },
+  "seasonalGuide": {
+    "title": "Plan your visit by season",
+    "subtitle": "Santo Domingo is tropical and warm all year round; what really changes is rain, humidity and sea conditions. This table summarises long-term average climate conditions so you can plan with typical patterns in mind.",
+    "colSeason": "Season (months)",
+    "colWeather": "Weather & temperature",
+    "colSea": "Sea conditions & water temp",
+    "colNature": "Nature & wildlife",
+    "colTip": "Planning tips",
+    "rows": [
+      {
+        "season": "Dec–Feb · Dry season",
+        "weather": "The coolest, most comfortable months of the year: days around 29–30°C, nights around 20°C, little rain, lower humidity and a fresh north-east trade wind.",
+        "sea": "Seas are generally calm at 26–27°C — great for promenade walks, sunsets and enjoying the seawall.",
+        "nature": "Coastal birds are busy (pelicans, frigatebirds); from January to March you can plan a short trip north-east to Samaná Bay for humpback whales.",
+        "tip": "Christmas, New Year and Carnival are peak season — the Malecón gets busy; book ahead, arrive early and bring a light layer for cooler evenings."
+      },
+      {
+        "season": "Mar–May · Drying to wetter",
+        "weather": "Hotter and wetter step by step: March is still fairly dry, but from April–May afternoons reach about 31–32°C and brief showers become more frequent as humidity rises.",
+        "sea": "Sea temperature climbs to about 27–28°C and is usually calm — ideal for early-morning or evening coastal walks.",
+        "nature": "Lush coastal greenery and active birds; around Holy Week the city fills with visitors and the seafront feels lively.",
+        "tip": "Expect big crowds during Holy Week (Mar–Apr); showers are usually short afternoon bursts — carry an umbrella and do outdoor plans in the morning."
+      },
+      {
+        "season": "Jun–Aug · Rainy peak summer",
+        "weather": "Classic Caribbean summer: days of 31–33°C feel muggy, with short heavy downpours or thunderstorms on most late afternoons and evenings.",
+        "sea": "The warmest water of the year, about 29°C; more swell, and after heavy rain nearshore water can briefly turn murky — watch tide and shoreline warnings.",
+        "nature": "Peak marine activity: sea-turtle nesting ramps up on nearby beaches; jellyfish and bait fish may appear, so keep an eye out.",
+        "tip": "Plan big activities for morning or late afternoon and avoid midday heat; sunscreen and water are essential and short-term local alerts are worth checking. Low season means fewer crowds and better prices."
+      },
+      {
+        "season": "Sep–Nov · Wet transition",
+        "weather": "The wettest, most humid stretch: September–October bring peak rainfall within the Atlantic hurricane season (June–November); from November rain eases and the dry season approaches.",
+        "sea": "The sea stays warm at about 28–29°C; swell and gusty spells are common — keep off the outer seawall and rocks around strong winds or storms.",
+        "nature": "Rain keeps coastal vegetation lush; after storms, seaweed and debris may wash onto the shore — respect on-site clean-up notices.",
+        "tip": "Check official forecasts and storm tracks 1–3 days before travel and choose flexible bookings; by November the weather improves, making it a great-value shoulder season."
+      }
+    ],
+    "note": "Note: this table reflects long-term average climate (about 30-year climate normals) and describes typical conditions, not what any specific year will bring; sea state also depends on daily wind and rain. Always check the official local forecast and on-site warnings before heading out."
   },
   "amenitiesSection": {
     "title": "Visitor Facilities & Services",

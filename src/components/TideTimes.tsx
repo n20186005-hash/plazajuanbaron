@@ -1,32 +1,7 @@
-import { existsSync, readFileSync } from 'node:fs';
-import { join } from 'node:path';
 import { useTranslations } from 'next-intl';
-
-const SNAPSHOT_PATH = join(process.cwd(), 'public', 'data', 'tides.json');
-
-type TideEvent = { type: 'high' | 'low'; time: string; m: number };
-type TideDay = { date: string; events: TideEvent[] };
-type TidePayload = { station?: string; generated?: string; days: TideDay[] };
+import type { TidePayload } from '@/lib/tide';
 
 const LOCALES: Record<string, string> = { zh: 'zh-CN', en: 'en-GB', es: 'es-ES' };
-
-let snapshotCache: TidePayload | null | undefined;
-
-function loadSnapshot(): TidePayload | null {
-  if (snapshotCache !== undefined) return snapshotCache;
-  try {
-    if (!existsSync(SNAPSHOT_PATH)) {
-      snapshotCache = null;
-      return null;
-    }
-    const json = JSON.parse(readFileSync(SNAPSHOT_PATH, 'utf8')) as TidePayload | null;
-    snapshotCache = json && Array.isArray(json.days) && json.days.length > 0 ? json : null;
-    return snapshotCache;
-  } catch {
-    snapshotCache = null;
-    return null;
-  }
-}
 
 function formatTime(raw: string, locale: string): string {
   const m = raw.match(/^(\d{1,2}):(\d{2})\s*(AM|PM)$/);
@@ -75,11 +50,16 @@ function shortDate(iso: string): string {
   return parts.length === 3 ? `${parts[2]}/${parts[1]}` : iso.slice(5);
 }
 
-export default function TideTimes({ locale }: { locale: string }) {
+export default function TideTimes({
+  data,
+  locale,
+}: {
+  data: TidePayload | null;
+  locale: string;
+}) {
   const tRaw = useTranslations('tideSection');
   const t = (k: string) => (tRaw as unknown as (k: string) => string)(k);
 
-  const data = loadSnapshot();
   if (!data || data.days.length === 0) return null;
 
   const today = data.days[0];

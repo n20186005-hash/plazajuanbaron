@@ -1,9 +1,20 @@
 import { useTranslations } from 'next-intl';
-import StatusWeatherWidget from './StatusWeatherWidget';
+import StatusWeatherWidget, { type WeatherPill } from './StatusWeatherWidget';
+import { conditionEmoji, formatLocalClock, type WeatherPayload } from '@/lib/weather';
 
-export default function Hero() {
+export default function Hero({ weather }: { weather: WeatherPayload | null }) {
   const t = useTranslations('hero');
   const mapsUrl = "https://maps.app.goo.gl/fCbQA7H9PcK9PDJF6";
+
+  const weatherPill: WeatherPill | null = weather
+    ? {
+        emoji: conditionEmoji(weather.current.weather_code),
+        tempC: Math.round(weather.current.temperature_2m),
+        sunset: weather.daily.sunset?.[0]
+          ? formatLocalClock(weather.daily.sunset[0], 'en')
+          : null,
+      }
+    : null;
 
   return (
     <section className="relative min-h-screen flex items-end pb-16 sm:pb-24 overflow-hidden">
@@ -58,8 +69,8 @@ export default function Hero() {
             </a>
           </div>
 
-          {/* Status and Weather Widget */}
-          <StatusWeatherWidget />
+          {/* Status and live weather widget */}
+          <StatusWeatherWidget weather={weatherPill} />
         </div>
       </div>
 

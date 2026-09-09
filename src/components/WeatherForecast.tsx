@@ -1,55 +1,16 @@
-import { existsSync, readFileSync } from 'node:fs';
-import { join } from 'node:path';
 import { useTranslations } from 'next-intl';
+import {
+  EMOJI,
+  type WeatherPayload,
+  conditionKey,
+  isValidWeatherPayload,
+} from '@/lib/weather';
 
-const SNAPSHOT_PATH = join(process.cwd(), 'public', 'data', 'weather.json');
 const FORECAST_DAYS = 7;
-
-type CurrentWeather = {
-  temperature_2m: number;
-  relative_humidity_2m: number;
-  apparent_temperature: number;
-  weather_code: number;
-  wind_speed_10m: number;
-};
-
-type Daily = {
-  time: string[];
-  weather_code: number[];
-  temperature_2m_max: number[];
-  temperature_2m_min: number[];
-  precipitation_probability_max?: number[];
-  uv_index_max?: number[];
-  wind_speed_10m_max?: number[];
-};
-
-type WeatherAlert = {
-  event?: string;
-  description?: string;
-  start?: string;
-  end?: string;
-};
-
-type Payload = {
-  current: CurrentWeather;
-  daily: Daily;
-  alerts?: { alert?: WeatherAlert[] };
-};
 
 type GroupKey = 'outfit' | 'plan' | 'gear' | 'risk';
 
 const LOCALES: Record<string, string> = { zh: 'zh-CN', en: 'en-GB', es: 'es-ES' };
-
-const EMOJI: Record<string, string> = {
-  sunny: '☀️',
-  partlyCloudy: '⛅',
-  overcast: '☁️',
-  fog: '🌫️',
-  drizzle: '🌦️',
-  rain: '🌧️',
-  snow: '❄️',
-  thunderstorm: '⛈️',
-};
 
 const GROUP_ICON: Record<GroupKey, string> = {
   outfit: '🧥',
@@ -57,37 +18,6 @@ const GROUP_ICON: Record<GroupKey, string> = {
   gear: '🎒',
   risk: '⚠️',
 };
-
-let snapshotCache: Payload | null | undefined;
-
-function loadSnapshot(): Payload | null {
-  if (snapshotCache !== undefined) return snapshotCache;
-  try {
-    if (!existsSync(SNAPSHOT_PATH)) {
-      snapshotCache = null;
-      return null;
-    }
-    const json = JSON.parse(readFileSync(SNAPSHOT_PATH, 'utf8')) as Payload | null;
-    snapshotCache =
-      json && json.current && json.daily && Array.isArray(json.daily.time) ? json : null;
-    return snapshotCache;
-  } catch {
-    snapshotCache = null;
-    return null;
-  }
-}
-
-function conditionKey(code: number): string {
-  if (code === 0) return 'sunny';
-  if (code === 1 || code === 2) return 'partlyCloudy';
-  if (code === 3) return 'overcast';
-  if (code === 45 || code === 48) return 'fog';
-  if (code >= 51 && code <= 57) return 'drizzle';
-  if ((code >= 61 && code <= 67) || (code >= 80 && code <= 82)) return 'rain';
-  if ((code >= 71 && code <= 77) || code === 85 || code === 86) return 'snow';
-  if (code >= 95) return 'thunderstorm';
-  return 'partlyCloudy';
-}
 
 function rainKind(code: number): 'none' | 'light' | 'heavy' | 'thunder' {
   if (code >= 95) return 'thunder';
@@ -127,7 +57,7 @@ function humidityWordKey(value: number): string {
   return 'high';
 }
 
-function buildRecommendations(d: Payload): Record<GroupKey, string[]> {
+function buildRecommendations(d: WeatherPayload): Record<GroupKey, string[]> {
   const rec: Record<GroupKey, string[]> = { outfit: [], plan: [], gear: [], risk: [] };
   const add = (group: GroupKey, id: string) => {
     if (!rec[group].includes(id)) rec[group].push(id);
@@ -196,11 +126,16 @@ function buildRecommendations(d: Payload): Record<GroupKey, string[]> {
   return rec;
 }
 
-export default function WeatherForecast({ locale }: { locale: string }) {
+export default function WeatherForecast({
+  data,
+  locale,
+}: {
+  data: WeatherPayload | null;
+  locale: string;
+}) {
   const tRaw = useTranslations('weatherSection');
   const t = (k: string) => (tRaw as unknown as (k: string) => string)(k);
 
-  const data = loadSnapshot();
   const intlLocale = LOCALES[locale] || 'es-ES';
   const formatDeg = (value: number) => `${Math.round(value)}°`;
 
@@ -221,7 +156,7 @@ export default function WeatherForecast({ locale }: { locale: string }) {
     return parts.length === 3 ? `${parts[2]}/${parts[1]}` : '';
   };
 
-  const valid = !!data && !!data.daily && data.daily.time.length >= 1;
+  const valid = isValidWeatherPayload(data);
 
   if (!valid) {
     return (
@@ -248,7 +183,7 @@ export default function WeatherForecast({ locale }: { locale: string }) {
     );
   }
 
-  const d = data as Payload;
+  const d = data as WeatherPayload;
   const current = d.current;
   const advice = buildRecommendations(d);
   const day0 = d.daily.time[0];
