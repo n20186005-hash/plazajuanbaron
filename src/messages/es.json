@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Plaza Juan Barón | Plaza Juan Barón",
-    "description": "Explora la Plaza Juan Barón en Santo Domingo, República Dominicana. No es solo un excelente mirador junto al mar, sino también la opción principal para que los lugareños disfruten de la comida, reuniones familiares y experimenten la vibrante vida nocturna dominicana."
+    "title": "Plaza Juan Barón (Santo Domingo) - Guía del Visitante y Ubicación",
+    "description": "Descubre la Plaza Juan Barón, la emblemática plaza junto al mar y parque público del Malecón de Santo Domingo, en el Distrito Nacional, República Dominicana. Consulta el mapa de ubicación, los horarios, los lugares de interés cercanos y consejos de viaje."
   },
   "header": {
     "home": "Inicio",
@@ -11,12 +11,16 @@
     "backToHome": "Volver al Inicio"
   },
   "hero": {
-    "title": "Plaza Juan Barón",
+    "title": "Plaza Juan Barón (Santo Domingo)",
+    "imageAlt": "Plaza Juan Barón - Vista principal en Santo Domingo, República Dominicana",
     "subtitle": "La intersección perfecta de la brisa del Mar Caribe y la vida nocturna de Santo Domingo",
     "rating": "4.5",
-    "reviewCount": "10,912",
+    "reviewCount": "10,991",
     "hours": "Diariamente 16:00–00:00",
-    "openMaps": "Ver Ubicación"
+    "openMaps": "Ver Ubicación",
+    "statusOpen": "🟢 Abierto ahora",
+    "statusClosed": "🔴 Cerrado (abre a las 16:00)",
+    "sunset": "Atardecer"
   },
   "intro": {
     "title": "Sobre Plaza Juan Barón",
@@ -220,10 +224,13 @@
   "mapSection": {
     "title": "Ubicación y Mapa",
     "subtitle": "F474+RWW, P.º Pdte. Billini, Santo Domingo 10208, República Dominicana",
-    "openMaps": "Obtener Indicaciones"
+    "openMaps": "Obtener Indicaciones",
+    "officialPortalText": "Para información oficial y noticias de turismo regional, visita el",
+    "officialPortalLinkLabel": "Portal Oficial de Turismo de República Dominicana / Distrito Nacional"
   },
   "footer": {
     "rights": "© 2026 Plaza Juan Barón. Todos los derechos reservados.",
+    "imageCredit": "Propiedad de las imágenes: todas las imágenes mostradas en este sitio web son propiedad de sus fotógrafos originales y están sujetas a derechos de autor.",
     "privacy": "Política de Privacidad",
     "terms": "Términos de Servicio",
     "cookies": "Configuración de Cookies",
@@ -370,5 +377,191 @@
     ],
     "guideTitle": "Consejo de Guía para Visitantes",
     "guideContent": "Al visitar, puede comenzar paseando desde la entrada principal en P.º Pdte. Billini; luego camine alrededor de la plaza para disfrutar de los paisajes y el follaje; si tiene suficiente tiempo, puede descansar en las áreas de ocio y sentir la vida urbana local. Finalmente, explore el paisaje urbano alrededor de la plaza y sienta el encanto de la capital dominicana."
+  },
+  "attractionSeo": {
+    "geoChain": ["Plaza Juan Barón", "Santo Domingo", "Distrito Nacional", "República Dominicana"],
+    "declaration": "Bienvenido a la Plaza Juan Barón, ampliamente reconocida como la animada plaza central del Malecón de Santo Domingo. Situada en el corazón de Santo Domingo, en el Distrito Nacional, República Dominicana, este parque público y punto de encuentro frente al mar es una parada imprescindible para quienes visitan la región."
+  },
+  "locationSection": {
+    "title": "Ubicación y Cómo Visitar la Plaza Juan Barón en Santo Domingo",
+    "intro": "La Plaza Juan Barón se encuentra en el P.º Pdte. Billini, junto al paseo marítimo del Malecón (Avenida George Washington) de Santo Domingo, en el Distrito Nacional, código postal 10208. La plaza se abre al Mar Caribe, por lo que es fácil de localizar caminando o conduciendo por la costa.",
+    "addressLabel": "Dirección",
+    "entranceLabel": "Entrada principal",
+    "entrance": "La entrada principal del parque está en el P.º Pdte. Billini (Paseo Presidente Billini), a poca distancia del Malecón de Santo Domingo.",
+    "plusCodeLabel": "Código Plus",
+    "directionLabel": "Cómo llegar",
+    "directions": "Desde la Ciudad Colonial (Zona Colonial), la plaza queda a un corto trayecto o a un agradable paseo por el Malecón. Los taxis y las aplicaciones de transporte están disponibles en toda la ciudad.",
+    "getDirections": "Obtener indicaciones en Google Maps"
+  },
+  "nearbySection": {
+    "title": "Lugares de Interés Alrededor de la Plaza Juan Barón",
+    "intro": "Al visitar la Plaza Juan Barón, es fácil recorrer los monumentos y puntos de interés cercanos, como el Malecón de Santo Domingo y la Ciudad Colonial (Zona Colonial), ambos a poca distancia de la plaza.",
+    "items": [
+      {
+        "name": "Malecón de Santo Domingo",
+        "type": "Paseo marítimo",
+        "description": "El famoso bulevar costero de Santo Domingo a lo largo de la Avenida George Washington, con monumentos, miradores y restaurantes, ideal para pasear al atardecer."
+      },
+      {
+        "name": "Ciudad Colonial (Zona Colonial)",
+        "type": "Centro histórico · Patrimonio de la UNESCO",
+        "description": "La primera ciudad fundada por los europeos en América y Patrimonio Mundial de la UNESCO, con calles empedradas, plazas y monumentos del siglo XVI."
+      },
+      {
+        "name": "Parque Independencia y Puerta del Conde",
+        "type": "Parque histórico y puerta de la ciudad",
+        "description": "El histórico parque y la puerta que conmemoran la independencia dominicana, ubicados a poca distancia de la plaza."
+      },
+      {
+        "name": "Obelisco Hembra",
+        "type": "Monumento",
+        "description": "Un obelisco emblemático del Malecón, conocido como punto de encuentro y símbolo de la avenida costera."
+      }
+    ],
+    "explore": "Ver más fotos y atracciones de la Plaza Juan Barón en Google Maps"
+  },
+  "faqSection": {
+    "title": "Preguntas Frecuentes",
+    "items": [
+      {
+        "q": "¿Dónde se encuentra la Plaza Juan Barón?",
+        "a": "La Plaza Juan Barón se encuentra en el P.º Pdte. Billini, en la costa del Malecón de Santo Domingo, en el Distrito Nacional, República Dominicana (código postal 10208)."
+      },
+      {
+        "q": "¿Qué tipo de lugar es la Plaza Juan Barón?",
+        "a": "La Plaza Juan Barón es un parque público y una plaza al aire libre frente al mar de Santo Domingo, conocida por sus vistas al Caribe, puestos de comida y ambiente familiar."
+      },
+      {
+        "q": "¿Es gratuita la visita a la Plaza Juan Barón?",
+        "a": "Sí, la Plaza Juan Barón es un espacio público y su visita es gratuita durante todo el año."
+      },
+      {
+        "q": "¿Cuál es el horario de la Plaza Juan Barón?",
+        "a": "Al ser un parque público no tiene un horario de entrada fijo; la plaza se llena de ambiente desde la tarde, alrededor de las 16:00, hasta la noche. Consulta las fuentes oficiales para la información más reciente."
+      },
+      {
+        "q": "¿Cuál es la dirección y el código Plus de la Plaza Juan Barón?",
+        "a": "Dirección: P.º Pdte. Billini, Santo Domingo 10208, Distrito Nacional. Código Plus: F474+RWW Santo Domingo 10208."
+      },
+      {
+        "q": "¿Qué se puede ver cerca de la Plaza Juan Barón?",
+        "a": "La plaza está cerca del Malecón de Santo Domingo, de la Ciudad Colonial (Zona Colonial), del Parque Independencia y de otros lugares emblemáticos de la capital dominicana."
+      },
+      {
+        "q": "¿Cómo llegar a la Plaza Juan Barón?",
+        "a": "Se llega fácilmente a pie o en taxi desde el Malecón y la Ciudad Colonial; si viaja en coche, conviene confirmar el estacionamiento disponible en la zona con antelación."
+      },
+      {
+        "q": "¿Cómo puedo contactar con la Plaza Juan Barón?",
+        "a": "El número de teléfono del listado de Google de la plaza es el +1 809-689-9476. Para información oficial, consulte el ayuntamiento del Distrito Nacional (adn.gob.do)."
+      }
+    ]
+  },
+  "sourcesSection": {
+    "title": "Fuentes de Información y Referencias",
+    "intro": "La información de esta página se ha elaborado a partir de fuentes oficiales gubernamentales e internacionales para mantener esta guía del visitante precisa y actualizada:",
+    "items": [
+      {
+        "name": "Ministerio de Turismo de la República Dominicana (MITUR)",
+        "url": "https://www.mitur.gob.do/",
+        "note": "Ministerio oficial del gobierno (.gob)"
+      },
+      {
+        "name": "GoDominicanRepublic - Portal oficial de turismo",
+        "url": "https://www.godominicanrepublic.com/",
+        "note": "Guía turística oficial de la República Dominicana"
+      },
+      {
+        "name": "Ayuntamiento del Distrito Nacional de Santo Domingo (ADN)",
+        "url": "https://adn.gob.do/",
+        "note": "Gobierno local de Santo Domingo (.gob)"
+      },
+      {
+        "name": "UNESCO - Ciudad Colonial de Santo Domingo",
+        "url": "https://whc.unesco.org/en/list/526/",
+        "note": "Centro del Patrimonio Mundial (.org)"
+      },
+      {
+        "name": "Google Maps - Plaza Juan Barón",
+        "url": "https://maps.app.goo.gl/fCbQA7H9PcK9PDJF6",
+        "note": "Listado en el mapa, fotos y reseñas públicas"
+      }
+    ]
+  },
+  "weatherSection": {
+    "title": "El Tiempo en Santo Domingo",
+    "forecastTitle": "Pronóstico para los próximos días",
+    "now": "Ahora en Santo Domingo",
+    "today": "Hoy",
+    "humidity": "Humedad",
+    "wind": "Viento",
+    "feelsLike": "Sensación térmica",
+    "fallback": "Los datos meteorológicos no están disponibles en este momento. Antes de salir, consulta el pronóstico de tu servicio meteorológico local.",
+    "conditions": {
+      "sunny": "Despejado",
+      "partlyCloudy": "Parcialmente nublado",
+      "overcast": "Nublado",
+      "fog": "Niebla",
+      "drizzle": "Llovizna",
+      "rain": "Lluvia",
+      "snow": "Nieve",
+      "thunderstorm": "Tormenta eléctrica"
+    }
+  },
+  "amenitiesSection": {
+    "title": "Servicios y Equipamientos para el Visitante",
+    "intro": "Para que organices mejor tu visita, aquí tienes una guía objetiva de los tipos de servicios disponibles en la plaza y su entorno. Este sitio es un proyecto educativo sin fines de lucro: no recomendamos marcas ni establecimientos concretos, solo categorías de servicios, para mantener la neutralidad y la objetividad.",
+    "items": [
+      {
+        "label": "Baños públicos (WC)",
+        "text": "La plaza renovada cuenta con servicios sanitarios públicos gestionados por el ayuntamiento; su disponibilidad puede variar según horarios y mantenimiento. Como en cualquier espacio urbano, conviene confirmar en el lugar y llevar tus propios artículos de higiene."
+      },
+      {
+        "label": "Estacionamiento",
+        "text": "La plaza no dispone de un estacionamiento exclusivo de gran capacidad en su interior. En el entorno del Malecón y en las calles cercanas hay bolsas de estacionamiento regulado y zonas de pago; revisa siempre la señalización y las normas de estacionamiento antes de aparcar."
+      },
+      {
+        "label": "Restaurantes y comida",
+        "text": "En la propia plaza y a lo largo del Malecón existen numerosos puestos y pequeños restaurantes de distintos tipos: cocina dominicana, mariscos, comida rápida, cafeterías y heladerías. Elige según tu preferencia; no realizamos recomendaciones comerciales."
+      },
+      {
+        "label": "Alojamiento",
+        "text": "La zona del Malecón y la Ciudad Colonial (Zona Colonial) concentran hospedajes urbanos de diversas categorías: hoteles, hostales y apartamentos vacacionales. Las opciones son amplias; compara según tu presupuesto y la temporada."
+      },
+      {
+        "label": "Supermercados y tiendas",
+        "text": "En el Distrito Nacional hay supermercados y colmados (tiendas de barrio) distribuidos por la ciudad, aunque no hay grandes superficies dentro de la plaza. Para compras mayores, lo habitual es desplazarse a otras zonas de la ciudad."
+      },
+      {
+        "label": "Gasolineras y puntos de recarga",
+        "text": "En el Malecón y en avenidas cercanas hay estaciones de servicio para combustible. Los puntos públicos de recarga para vehículos eléctricos aún son escasos en esta zona; si viajas en coche eléctrico, planifica la ruta con antelación."
+      }
+    ],
+    "disclaimer": "Nota: esta información describe tipos de servicios con carácter orientativo y puede cambiar con el tiempo. Verifica disponibilidad, horarios, tarifas y condiciones directamente en el lugar o en las fuentes oficiales antes de tu visita."
+  },
+  "cultureSection": {
+    "title": "Historia, Trasfondo y Vida de la Plaza",
+    "lead": "Más allá de un mirador junto al mar, la Plaza Juan Barón es un fragmento de la historia urbana de Santo Domingo: un espacio público renovado, un nombre que evoca la memoria dominicana y un escenario cotidiano de la vida caribeña.",
+    "cards": [
+      {
+        "title": "Un nombre con historia",
+        "text": "Según crónicas locales, la plaza lleva el nombre de Juan Barón como homenaje a un empresario y filántropo dominicano. En la memoria popular el apellido también se cruza con otros personajes homónimos, como un valiente militar caído en 1805 y un urbanista consagrado, lo que explica versiones distintas en las fuentes. Para la investigación académica, el punto de partida recomendado es el archivo del Ayuntamiento del Distrito Nacional."
+      },
+      {
+        "title": "De parque urbano a plaza renovada",
+        "text": "El solar que hoy ocupa la plaza ya era un espacio público antes de su forma actual. El 23 de abril de 2009, tras una remodelación con una inversión cercana a los RD$90 millones, el espacio fue entregado a la ciudadanía mediante la gestión conjunta del grupo Inversiones Turísticas Sans Souci y el Ayuntamiento del Distrito Nacional, con mobiliario urbano, alumbrado permanente, servicios sanitarios y seguridad."
+      },
+      {
+        "title": "Un escenario de la vida caribeña",
+        "text": "Con unos 21,000 m² de extensión, la plaza es uno de los polos de recreación del Malecón: familias que pasean al atardecer, niños en juegos mecánicos, puestos de comida y espacios para caminar, montar bicicleta o patinar. También acoge actividades culturales y celebraciones; muchas familias dominicanas eligen este lugar para despedir el año viendo los fuegos artificiales sobre el mar."
+      }
+    ],
+    "factsTitle": "¿Sabías que…?",
+    "facts": [
+      "La plaza central y sus áreas comerciales suman una superficie total aproximada de 21,000 metros cuadrados.",
+      "En su zona comercial conviven alrededor de siete puestos con una oferta gastronómica variada.",
+      "Cerca de la plaza se encuentran el monumento a Fray Antón de Montesinos y la Plaza Güibia, dos clásicos más del Malecón."
+    ],
+    "sourceNote": "Contenido educativo elaborado a partir de fuentes públicas (prensa nacional y enciclopedias de acceso abierto) citadas en la sección de fuentes. La historia urbana puede presentar versiones distintas según la fuente; ante la duda, recomendamos consultar los archivos oficiales del Distrito Nacional."
   }
 }

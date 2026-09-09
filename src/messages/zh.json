@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "胡安·巴隆广场 | Plaza Juan Barón",
-    "description": "探索位于多米尼加共和国圣多明戈的 Plaza Juan Barón。这不仅是一个绝佳的海滨观景台，更是当地人享受美食、家庭聚会和体验多米尼加充满活力的夜生活的首选之地。"
+    "title": "Plaza Juan Barón（圣多明戈）- 游客指南与位置",
+    "description": "探索位于多米尼加共和国国家区圣多明戈 Malecón 海滨的 Plaza Juan Barón——这不仅是绝佳的海滨广场与公共公园，更是当地人享受美食、家庭聚会和体验多米尼加夜生活的首选之地。查看位置地图、开放时间、周边景点与旅行贴士。"
   },
   "header": {
     "home": "首页",
@@ -11,10 +11,11 @@
     "backToHome": "返回首页"
   },
   "hero": {
-    "title": "Plaza Juan Barón",
+    "title": "Plaza Juan Barón（圣多明戈）",
+    "imageAlt": "Plaza Juan Barón - 位于多米尼加共和国圣多明戈的主景观",
     "subtitle": "加勒比海风与圣多明戈夜生活的完美交汇点",
     "rating": "4.5",
-    "reviewCount": "10,912",
+    "reviewCount": "10,991",
     "hours": "每日 16:00–00:00",
     "openMaps": "查看位置",
     "statusOpen": "🟢 营业中",
@@ -223,10 +224,13 @@
   "mapSection": {
     "title": "地图位置",
     "subtitle": "F474+RWW, P.º Pdte. Billini, Santo Domingo 10208多米尼加共和国",
-    "openMaps": "获取导航路线"
+    "openMaps": "获取导航路线",
+    "officialPortalText": "如需官方动态与地区旅游信息，请访问",
+    "officialPortalLinkLabel": "多米尼加共和国 / 国家区官方旅游门户"
   },
   "footer": {
     "rights": "© 2026 Plaza Juan Barón. 保留所有权利。",
+    "imageCredit": "图片产权：本网站所展示的所有图片产权及版权均归原摄影者所有。",
     "privacy": "隐私政策",
     "terms": "服务条款",
     "cookies": "Cookie 设置",
@@ -373,5 +377,191 @@
     ],
     "guideTitle": "游客导览建议",
     "guideContent": "游客在参观时，可以从 P.º Pdte. Billini 主入口进入广场；随后在广场内漫步，欣赏景观和绿化；如果您有充足的时间，可以在休闲区域休息，感受当地的城市生活。最后在广场周边探索圣多明戈的城市风光，感受多米尼加首都的魅力。"
+  },
+  "attractionSeo": {
+    "geoChain": ["Plaza Juan Barón", "圣多明戈", "国家区 (Distrito Nacional)", "多米尼加共和国"],
+    "declaration": "欢迎来到 Plaza Juan Barón——圣多明戈 Malecón 海滨大道上公认的活力中心广场。它坐落于多米尼加共和国（Dominican Republic）国家区（Distrito Nacional）圣多明戈的市中心海滨地带，是到访该地区旅行者的重要集散地。"
+  },
+  "locationSection": {
+    "title": "位置与如何前往圣多明戈的 Plaza Juan Barón",
+    "intro": "Plaza Juan Barón 位于国家区（Distrito Nacional）圣多明戈 Malecón（乔治·华盛顿大道）海边的 P.º Pdte. Billini 大道，邮政编码 10208。广场紧邻加勒比海岸，沿海岸步行或驾车时很容易找到。",
+    "addressLabel": "地址",
+    "entranceLabel": "主入口",
+    "entrance": "公园主入口位于 P.º Pdte. Billini（Paseo Presidente Billini），距离圣多明戈 Malecón 很近。",
+    "plusCodeLabel": "Plus 代码",
+    "directionLabel": "前往方式",
+    "directions": "从殖民老城（Zona Colonial）出发，沿 Malecón 步行或乘车片刻即可到达；市内出租车与网约车服务普及。",
+    "getDirections": "在 Google Maps 获取导航路线"
+  },
+  "nearbySection": {
+    "title": "Plaza Juan Barón 周边地标与景点",
+    "intro": "游览 Plaza Juan Barón 时，游客可以轻松探访周边的历史地标与景点，包括圣多明戈 Malecón 海滨大道与殖民老城（Ciudad Colonial / Zona Colonial），两者距离广场都很近。",
+    "items": [
+      {
+        "name": "圣多明戈 Malecón 海滨大道",
+        "type": "海滨长廊",
+        "description": "圣多明戈著名的临海大道（乔治·华盛顿大道沿线），沿途有纪念碑、观景点与餐厅，是欣赏日落和散步的理想去处。"
+      },
+      {
+        "name": "殖民老城 Ciudad Colonial（Zona Colonial）",
+        "type": "历史中心 · 联合国教科文组织世界遗产",
+        "description": "美洲第一座由欧洲人建立的城市，联合国教科文组织世界遗产，鹅卵石街道、历史广场与十六世纪建筑云集。"
+      },
+      {
+        "name": "独立公园 Parque Independencia 与康德国门",
+        "type": "历史公园与城门",
+        "description": "纪念多米尼加独立的标志性历史公园与城门，距离广场不远。"
+      },
+      {
+        "name": "奥贝利斯科·恩布拉（Obelisco Hembra）",
+        "type": "纪念碑",
+        "description": "Malecón 沿岸的标志性方尖碑，是海滨大道的象征与当地人的聚会点。"
+      }
+    ],
+    "explore": "在 Google Maps 查看更多 Plaza Juan Barón 的照片与景点"
+  },
+  "faqSection": {
+    "title": "常见问题",
+    "items": [
+      {
+        "q": "Plaza Juan Barón 在哪里？",
+        "a": "Plaza Juan Barón 位于多米尼加共和国国家区（Distrito Nacional）圣多明戈 Malecón 海边的 P.º Pdte. Billini 大道旁（邮政编码 10208）。"
+      },
+      {
+        "q": "Plaza Juan Barón 是什么类型的地方？",
+        "a": "Plaza Juan Barón 是圣多明戈海滨的一座免费开放的城市公园与公共广场，以加勒比海景、美食摊位和适合家庭的活动氛围而闻名。"
+      },
+      {
+        "q": "Plaza Juan Barón 是免费的吗？",
+        "a": "是的，Plaza Juan Barón 是公共开放空间，全年免费参观。"
+      },
+      {
+        "q": "Plaza Juan Barón 的开放时间是？",
+        "a": "作为公共公园，它没有固定的入场时间；广场通常在下午 16:00 左右开始热闹并持续到深夜。最新动态请以官方渠道为准。"
+      },
+      {
+        "q": "Plaza Juan Barón 的地址和 Plus 代码是？",
+        "a": "地址：P.º Pdte. Billini, Santo Domingo 10208, Distrito Nacional（多米尼加共和国国家区）。Plus 代码：F474+RWW Santo Domingo 10208。"
+      },
+      {
+        "q": "Plaza Juan Barón 周边有什么可看的？",
+        "a": "广场附近就是圣多明戈 Malecón 海滨大道、殖民老城（Ciudad Colonial / Zona Colonial）、独立公园（Parque Independencia）等首都知名地标。"
+      },
+      {
+        "q": "如何前往 Plaza Juan Barón？",
+        "a": "从 Malecón 或殖民老城步行或打车均可轻松到达；自驾前往建议提前确认周边停车信息。"
+      },
+      {
+        "q": "如何联系 Plaza Juan Barón？",
+        "a": "广场在 Google 地图资料中的联系电话为 +1 809-689-9476。官方资讯可查阅国家区政府网站 adn.gob.do。"
+      }
+    ]
+  },
+  "sourcesSection": {
+    "title": "信息来源与参考资料",
+    "intro": "本页面信息基于官方政府与国际权威来源整理，以确保游客指南的准确性与时效性：",
+    "items": [
+      {
+        "name": "多米尼加共和国旅游部（MITUR）",
+        "url": "https://www.mitur.gob.do/",
+        "note": "政府官方部委（.gob）"
+      },
+      {
+        "name": "GoDominicanRepublic - 多米尼加官方旅游门户",
+        "url": "https://www.godominicanrepublic.com/",
+        "note": "多米尼加共和国官方旅游指南"
+      },
+      {
+        "name": "圣多明戈国家区政府（ADN）",
+        "url": "https://adn.gob.do/",
+        "note": "圣多明戈地方政府（.gob）"
+      },
+      {
+        "name": "联合国教科文组织 - 圣多明戈殖民老城",
+        "url": "https://whc.unesco.org/en/list/526/",
+        "note": "世界遗产中心（.org）"
+      },
+      {
+        "name": "Google Maps - Plaza Juan Barón",
+        "url": "https://maps.app.goo.gl/fCbQA7H9PcK9PDJF6",
+        "note": "地图资料、照片与公开评论"
+      }
+    ]
+  },
+  "weatherSection": {
+    "title": "圣多明戈天气与未来预报",
+    "forecastTitle": "未来多日预报",
+    "now": "圣多明戈当前天气",
+    "today": "今天",
+    "humidity": "湿度",
+    "wind": "风速",
+    "feelsLike": "体感温度",
+    "fallback": "天气数据暂时不可用。出门前请留意当地天气预报。",
+    "conditions": {
+      "sunny": "晴",
+      "partlyCloudy": "局部多云",
+      "overcast": "阴",
+      "fog": "雾",
+      "drizzle": "毛毛雨",
+      "rain": "雨",
+      "snow": "雪",
+      "thunderstorm": "雷阵雨"
+    }
+  },
+  "amenitiesSection": {
+    "title": "游览配套与服务设施",
+    "intro": "为帮助您更好地规划行程，以下按类型中立说明广场及其周边常见的配套服务。本站为非盈利科普项目，不推荐任何具体商户或品牌，仅说明服务类型，保持客观中立。",
+    "items": [
+      {
+        "label": "公共卫生间（WC）",
+        "text": "翻新后的广场由市政府管理并配备公共卫生间；开放情况可能随时段与维护安排变化。城市公共空间建议现场确认，并自备个人卫生用品。"
+      },
+      {
+        "label": "停车",
+        "text": "广场内部没有大型专属停车场。Malecón 及附近街区的道路旁设有收费停车位与公共停车区域；停车前请务必留意标识与当地停车规定。"
+      },
+      {
+        "label": "餐饮",
+        "text": "广场内及 Malecón 沿线分布着大量小吃摊和小型餐馆，涵盖多米尼加菜、海鲜、快餐、咖啡馆与冰淇淋店等不同类型。请根据自身喜好选择，本网站不作商业推荐。"
+      },
+      {
+        "label": "住宿",
+        "text": "Malecón 一带与殖民老城（Ciudad Colonial / Zona Colonial）集中了各类城市住宿：酒店、青年旅舍和度假公寓。选择范围较广，请结合预算与季节自行比较。"
+      },
+      {
+        "label": "超市与商店",
+        "text": "国家区（Distrito Nacional）遍布超市与街角小卖部（colmados），但广场内没有大型商场；需要大宗购物通常要前往其他街区。"
+      },
+      {
+        "label": "加油站与充电",
+        "text": "Malecón 及附近主干道设有加油站。本区域公共电动汽车充电桩仍然较少，如驾驶电动车出行，请提前规划路线。"
+      }
+    ],
+    "disclaimer": "说明：以上内容仅是对服务类型的通用参考，实际情况可能随时间变化。出行前请在现场或通过官方渠道确认开放情况、营业时间、费用与相关规则。"
+  },
+  "cultureSection": {
+    "title": "历史背景与在地故事",
+    "lead": "Plaza Juan Barón 不只是海边的观景地，更是圣多明戈城市历史的一角：一个被重新焕新的公共空间、一个唤起多米尼加集体记忆的名字，以及加勒比日常生活的舞台。",
+    "cards": [
+      {
+        "title": "一个有故事的名字",
+        "text": "据本地资料记载，广场以多米尼加企业家与慈善家 Juan Barón 的名字命名以示敬意。在民间记忆中，同名的其他人物（如 1805 年阵亡于战场的军人、知名城市规划师）常被混淆，这也是不同资料说法不一的原因。若需严谨考证，建议以国家区政府档案为起点。"
+      },
+      {
+        "title": "从城市公园到焕新广场",
+        "text": "如今广场所在的位置在改造前本身就是公共空间。2009 年 4 月 23 日，经过投入约 9000 万多米尼加比索的翻新改造，该空间由 Inversiones Turísticas Sans Souci 集团与国家区政府（ADN）共同移交给公众，并新增了城市家具、常设照明、公共卫生设施与安保服务。"
+      },
+      {
+        "title": "加勒比日常生活的舞台",
+        "text": "广场占地约 21,000 平方米，是 Malecón 重要的休闲节点：日落时散步的家庭、儿童游乐设施、美食摊位，以及步行、骑行、滑板的空间一应俱全。这里还举办文化活动与节庆；许多多米尼加家庭会选择在此看着海面上的烟花辞旧迎新。"
+      }
+    ],
+    "factsTitle": "你知道吗？",
+    "facts": [
+      "中央广场与商业区域合计总面积约 21,000 平方米。",
+      "商业区约有七个摊位，提供多样的餐饮选择。",
+      "广场附近还有 Fray Antón de Montesinos 纪念碑与 Plaza Güibia，同为 Malecón 的经典地标。"
+    ],
+    "sourceNote": "以上为科普内容，依据公共来源（国家媒体报道与开放百科）整理，出处详见页面下方“信息来源”板块。城市历史常因资料来源不同而存在多个版本；如有疑问，建议查阅国家区政府官方档案。"
   }
 }

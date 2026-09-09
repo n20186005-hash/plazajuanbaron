@@ -1,8 +1,9 @@
 import { useTranslations } from 'next-intl';
+import { SITE } from '@/config/site';
 
 export default function MapEmbed() {
   const t = useTranslations('mapSection');
-  const mapsUrl = "https://maps.app.goo.gl/fCbQA7H9PcK9PDJF6";
+  const mapsUrl = SITE.mapsShareUrl;
 
   return (
     <section id="map" className="section-padding" style={{ background: 'var(--bg-secondary)' }}>
@@ -26,13 +27,13 @@ export default function MapEmbed() {
             This is for visual cleanliness only. Google's Terms of Service apply.
           */}
           <iframe
-            src="https://maps.google.com/maps?q=Plaza+Juan+Baron,+Santo+Domingo,+Dominican+Republic&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            src={SITE.mapsEmbedSrc}
             width="100%"
             height="450"
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
+            referrerPolicy="strict-origin-when-cross-origin"
             title="Google Maps - Plaza Juan Barón"
           />
         </div>
@@ -58,6 +59,22 @@ export default function MapEmbed() {
             </svg>
           </a>
         </div>
+
+        <p
+          className="mt-8 text-center text-sm leading-relaxed"
+          style={{ color: 'var(--text-muted)' }}
+        >
+          {t('officialPortalText')}{' '}
+          <a
+            href={SITE.govtTourismUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline font-medium"
+            style={{ color: 'var(--accent)' }}
+          >
+            {t('officialPortalLinkLabel')}
+          </a>
+        </p>
       </div>
     </section>
   );

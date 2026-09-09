@@ -1,0 +1,34 @@
+{
+  "name": "Plaza Juan Barón (Santo Domingo) - Visitor Guide",
+  "short_name": "Plaza Juan Barón",
+  "description": "Official visitor guide to Plaza Juan Barón in Santo Domingo, Distrito Nacional, Dominican Republic. View location map, opening details, nearby landmarks and travel tips.",
+  "id": "/es/",
+  "start_url": "/es/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#faf8f4",
+  "theme_color": "#3a7a8d",
+  "lang": "es",
+  "categories": ["travel", "tourism", "parks"],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

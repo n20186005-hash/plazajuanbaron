@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Plaza Juan Barón | Juan Barón Square",
-    "description": "Explore Plaza Juan Barón in Santo Domingo, Dominican Republic. It's not only a great seaside viewpoint but also the top choice for locals to enjoy food, family gatherings, and experience the vibrant Dominican nightlife."
+    "title": "Plaza Juan Barón (Santo Domingo) - Visitor Guide & Location",
+    "description": "Discover Plaza Juan Barón, the iconic seaside plaza and public park on the Malecón in Santo Domingo, Distrito Nacional, Dominican Republic. View the location map, opening details, nearby landmarks and travel tips."
   },
   "header": {
     "home": "Home",
@@ -11,12 +11,16 @@
     "backToHome": "Back to Home"
   },
   "hero": {
-    "title": "Plaza Juan Barón",
+    "title": "Plaza Juan Barón (Santo Domingo)",
+    "imageAlt": "Plaza Juan Barón - Main view in Santo Domingo, Dominican Republic",
     "subtitle": "The Perfect Intersection of Caribbean Sea Breeze and Santo Domingo Nightlife",
     "rating": "4.5",
-    "reviewCount": "10,912",
+    "reviewCount": "10,991",
     "hours": "Daily 16:00–00:00",
-    "openMaps": "View Location"
+    "openMaps": "View Location",
+    "statusOpen": "🟢 Open Now",
+    "statusClosed": "🔴 Closed (opens 16:00)",
+    "sunset": "Sunset"
   },
   "intro": {
     "title": "About Plaza Juan Barón",
@@ -220,10 +224,13 @@
   "mapSection": {
     "title": "Location & Map",
     "subtitle": "F474+RWW, P.º Pdte. Billini, Santo Domingo 10208, Dominican Republic",
-    "openMaps": "Get Directions"
+    "openMaps": "Get Directions",
+    "officialPortalText": "For official updates and regional tourism information, visit the",
+    "officialPortalLinkLabel": "Dominican Republic / Distrito Nacional Official Tourism Portal"
   },
   "footer": {
     "rights": "© 2026 Plaza Juan Barón. All rights reserved.",
+    "imageCredit": "Image Ownership: All images displayed on this website are the property and copyright of their original photographers.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "cookies": "Cookie Settings",
@@ -370,5 +377,191 @@
     ],
     "guideTitle": "Visitor Guide Tip",
     "guideContent": "When visiting, you can start by strolling from the main entrance at P.º Pdte. Billini; then walk around the square to enjoy the landscapes and greenery; if you have enough time, you can rest in the leisure areas and feel the local urban life. Finally, explore the urban scenery around the square and feel the charm of the Dominican capital."
+  },
+  "attractionSeo": {
+    "geoChain": ["Plaza Juan Barón", "Santo Domingo", "Distrito Nacional", "Dominican Republic"],
+    "declaration": "Welcome to Plaza Juan Barón, widely recognized as the lively central plaza of the Malecón in Santo Domingo. Located in the heart of Santo Domingo, Distrito Nacional, Dominican Republic, this public park and waterfront gathering place serves as a primary hub for travelers visiting the region."
+  },
+  "locationSection": {
+    "title": "Location & How to Visit Plaza Juan Barón in Santo Domingo",
+    "intro": "Plaza Juan Barón is located on P.º Pdte. Billini, along the Malecón (Avenida George Washington) seafront of Santo Domingo, in the Distrito Nacional, postal code 10208. The plaza opens onto the Caribbean waterfront, which makes it easy to find when walking or driving along the coast.",
+    "addressLabel": "Address",
+    "entranceLabel": "Main entrance",
+    "entrance": "The main entrance of the park is on P.º Pdte. Billini (Paseo Presidente Billini), a short distance from the Malecón in Santo Domingo.",
+    "plusCodeLabel": "Plus Code",
+    "directionLabel": "Getting there",
+    "directions": "From the Colonial City (Zona Colonial), the plaza is a short ride or a pleasant walk along the Malecón. Taxis and ride-hailing services are widely available around the city.",
+    "getDirections": "Get directions on Google Maps"
+  },
+  "nearbySection": {
+    "title": "Landmarks & Attractions Around Plaza Juan Barón",
+    "intro": "When visiting Plaza Juan Barón, you can easily explore surrounding historical landmarks and points of interest, including the Malecón de Santo Domingo and the Ciudad Colonial (Zona Colonial), both within easy reach of the plaza.",
+    "items": [
+      {
+        "name": "Malecón de Santo Domingo",
+        "type": "Seafront promenade",
+        "description": "Santo Domingo's famous oceanfront boulevard along Avenida George Washington, lined with monuments, viewpoints and restaurants, ideal for sunset walks."
+      },
+      {
+        "name": "Ciudad Colonial (Zona Colonial)",
+        "type": "Historic centre · UNESCO site",
+        "description": "The first European city founded in the Americas and a UNESCO World Heritage site, with cobblestone streets, plazas and 16th-century monuments."
+      },
+      {
+        "name": "Parque Independencia & Puerta del Conde",
+        "type": "Historic park & city gate",
+        "description": "The historic park and city gate that commemorate Dominican independence, located a short distance from the plaza."
+      },
+      {
+        "name": "Obelisco Hembra",
+        "type": "Monument",
+        "description": "A landmark obelisk on the Malecón, known as a meeting point and a symbol of the seaside avenue."
+      }
+    ],
+    "explore": "See more photos and attractions of Plaza Juan Barón on Google Maps"
+  },
+  "faqSection": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "Where is Plaza Juan Barón located?",
+        "a": "Plaza Juan Barón is located along P.º Pdte. Billini on the Malecón waterfront of Santo Domingo, in the Distrito Nacional, Dominican Republic (postal code 10208)."
+      },
+      {
+        "q": "What type of place is Plaza Juan Barón?",
+        "a": "Plaza Juan Barón is a public park and open-air plaza on the seafront of Santo Domingo, popular for its Caribbean views, food stalls and family-friendly atmosphere."
+      },
+      {
+        "q": "Is Plaza Juan Barón free to visit?",
+        "a": "Yes, Plaza Juan Barón is a public space and is free to visit year-round."
+      },
+      {
+        "q": "What are the opening hours of Plaza Juan Barón?",
+        "a": "As a public park it has no fixed admission schedule; the plaza gets busy from the afternoon, around 16:00, until late at night. Check official sources for the latest updates."
+      },
+      {
+        "q": "What is the address and plus code of Plaza Juan Barón?",
+        "a": "Address: P.º Pdte. Billini, Santo Domingo 10208, Distrito Nacional. Plus Code: F474+RWW Santo Domingo 10208."
+      },
+      {
+        "q": "What can you see around Plaza Juan Barón?",
+        "a": "The plaza is close to the Malecón de Santo Domingo, the Ciudad Colonial (Zona Colonial), Parque Independencia and other landmarks of the Dominican capital."
+      },
+      {
+        "q": "How do you get to Plaza Juan Barón?",
+        "a": "The plaza is easiest to reach on foot or by taxi from the Malecón and the Colonial City; if you drive, check for parking in the area in advance."
+      },
+      {
+        "q": "How can I contact Plaza Juan Barón?",
+        "a": "The phone number on the plaza's Google listing is +1 809-689-9476. For official information, please refer to the Distrito Nacional city hall (adn.gob.do)."
+      }
+    ]
+  },
+  "sourcesSection": {
+    "title": "Information Sources & References",
+    "intro": "The information on this page is compiled from official government and international sources to keep this visitor guide accurate and up to date:",
+    "items": [
+      {
+        "name": "Ministry of Tourism of the Dominican Republic (MITUR)",
+        "url": "https://www.mitur.gob.do/",
+        "note": "Official government ministry (.gob)"
+      },
+      {
+        "name": "GoDominicanRepublic - Official Tourism Portal",
+        "url": "https://www.godominicanrepublic.com/",
+        "note": "Official tourism guide of the Dominican Republic"
+      },
+      {
+        "name": "Santo Domingo National District City Hall (ADN)",
+        "url": "https://adn.gob.do/",
+        "note": "Local government of Santo Domingo (.gob)"
+      },
+      {
+        "name": "UNESCO - Colonial City of Santo Domingo",
+        "url": "https://whc.unesco.org/en/list/526/",
+        "note": "World Heritage Centre (.org)"
+      },
+      {
+        "name": "Google Maps - Plaza Juan Barón",
+        "url": "https://maps.app.goo.gl/fCbQA7H9PcK9PDJF6",
+        "note": "Map listing, photos and public reviews"
+      }
+    ]
+  },
+  "weatherSection": {
+    "title": "Weather in Santo Domingo",
+    "forecastTitle": "Forecast for the coming days",
+    "now": "Now in Santo Domingo",
+    "today": "Today",
+    "humidity": "Humidity",
+    "wind": "Wind",
+    "feelsLike": "Feels like",
+    "fallback": "Weather data is temporarily unavailable. Before you head out, please check your local weather forecast.",
+    "conditions": {
+      "sunny": "Clear sky",
+      "partlyCloudy": "Partly cloudy",
+      "overcast": "Overcast",
+      "fog": "Fog",
+      "drizzle": "Drizzle",
+      "rain": "Rain",
+      "snow": "Snow",
+      "thunderstorm": "Thunderstorm"
+    }
+  },
+  "amenitiesSection": {
+    "title": "Visitor Facilities & Services",
+    "intro": "To help you plan your visit, here is an objective overview of the service types available at the plaza and its surroundings. This is a non-profit educational site: we do not recommend specific brands or venues, only categories of services, to stay neutral and objective.",
+    "items": [
+      {
+        "label": "Public toilets (WC)",
+        "text": "The renovated plaza includes public sanitary facilities managed by the city government; availability may vary with opening hours and maintenance. As in any urban space, it is wise to confirm on site and carry your own hygiene items."
+      },
+      {
+        "label": "Parking",
+        "text": "The plaza does not have a large dedicated car park inside. Around the Malecón and nearby streets you will find metered parking bays and paid lots; always check signage and local parking rules before you park."
+      },
+      {
+        "label": "Restaurants & food",
+        "text": "At the plaza itself and along the Malecón there are numerous food stalls and small restaurants of many types: Dominican cuisine, seafood, fast food, cafés and ice-cream shops. Choose according to your taste; we make no commercial recommendations."
+      },
+      {
+        "label": "Accommodation",
+        "text": "The Malecón area and the Colonial City (Zona Colonial) concentrate urban lodgings of many categories: hotels, hostels and holiday apartments. The options are broad; compare them by budget and season."
+      },
+      {
+        "label": "Supermarkets & shops",
+        "text": "Across the Distrito Nacional there are supermarkets and colmados (corner grocery stores), although there are no large retail centres inside the plaza itself. For bigger shopping trips, people usually move to other districts."
+      },
+      {
+        "label": "Fuel & EV charging",
+        "text": "Fuel stations are available on the Malecón and on nearby avenues. Public charging points for electric vehicles are still scarce in this area; if you drive an electric car, plan your route in advance."
+      }
+    ],
+    "disclaimer": "Note: this information describes service types for guidance only and may change over time. Always confirm availability, opening hours, fees and conditions on site or through official sources before your visit."
+  },
+  "cultureSection": {
+    "title": "History, Background & Life of the Plaza",
+    "lead": "More than a viewpoint by the sea, Plaza Juan Barón is a fragment of Santo Domingo's urban history: a renovated public space, a name that evokes Dominican memory, and a daily stage of Caribbean life.",
+    "cards": [
+      {
+        "title": "A name with history",
+        "text": "According to local chronicles, the plaza honours the name of Juan Barón, a Dominican businessman and philanthropist. In popular memory the surname also intersects with other namesakes, such as a brave soldier who fell in 1805 and a renowned urban planner, which explains why sources differ. For academic research, the recommended starting point is the archive of the Distrito Nacional City Hall."
+      },
+      {
+        "title": "From urban park to a renovated plaza",
+        "text": "The site occupied by the plaza was already a public space before its current form. On 23 April 2009, after a renovation costing nearly RD$90 million, the space was handed back to the public through a joint effort by the Inversiones Turísticas Sans Souci group and the Distrito Nacional City Hall, gaining urban furniture, permanent lighting, sanitary facilities and security services."
+      },
+      {
+        "title": "A stage of Caribbean everyday life",
+        "text": "Covering around 21,000 m², the plaza is one of the Malecón's main recreation hubs: families strolling at sunset, children on amusement rides, food stalls, and plenty of space to walk, cycle or skate. It also hosts cultural activities and celebrations; many Dominican families choose this spot to see in the New Year watching fireworks over the sea."
+      }
+    ],
+    "factsTitle": "Did you know…?",
+    "facts": [
+      "The central plaza and its commercial areas cover a total area of roughly 21,000 square metres.",
+      "Around seven stalls with a varied gastronomic offer operate in its commercial zone.",
+      "Near the plaza you will find the Fray Antón de Montesinos monument and Plaza Güibia, two more Malecón classics."
+    ],
+    "sourceNote": "Educational content prepared from public sources (national press and open-access encyclopaedias) cited in the sources section below. Urban history may present different versions depending on the source; when in doubt, we recommend consulting the official archives of the Distrito Nacional."
   }
 }

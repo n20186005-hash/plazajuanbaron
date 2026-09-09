@@ -2,10 +2,12 @@ import { useTranslations, useMessages } from 'next-intl';
 
 export default function Intro() {
   const t = useTranslations('intro');
+  const tSeo = useTranslations('attractionSeo');
   const tOff = useTranslations('officialManagement');
   const messages = useMessages() as any;
   const items: string[] = messages?.intro?.visitGuide?.items || [];
   const alsoKnownAsItems: string[] = messages?.intro?.alsoKnownAs?.items || [];
+  const geoChain: string[] = messages?.attractionSeo?.geoChain || [];
 
   return (
     <section className="section-padding">
@@ -19,7 +21,33 @@ export default function Intro() {
         <div className="w-12 h-0.5 mb-8" style={{ background: 'var(--accent)' }} />
 
         <p
-          className="text-lg leading-relaxed mb-12"
+          className="text-lg leading-relaxed mb-6"
+          style={{ color: 'var(--text-secondary)' }}
+        >
+          {tSeo('declaration')}
+        </p>
+
+        {geoChain.length > 0 && (
+          <p
+            className="text-xs sm:text-sm mb-6 flex flex-wrap items-center gap-x-2 gap-y-1"
+            style={{ color: 'var(--text-muted)' }}
+            aria-label="Location"
+          >
+            {geoChain.map((item, i) => (
+              <span key={i} className="flex items-center gap-2">
+                {i > 0 && (
+                  <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" aria-hidden="true">
+                    <polyline points="9 18 15 12 9 6" />
+                  </svg>
+                )}
+                <span>{item}</span>
+              </span>
+            ))}
+          </p>
+        )}
+
+        <p
+          className="text-base leading-relaxed mb-12"
           style={{ color: 'var(--text-secondary)' }}
         >
           {t('description')}

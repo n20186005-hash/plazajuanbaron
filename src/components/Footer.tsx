@@ -3,6 +3,7 @@ import { useLocale } from 'next-intl';
 
 export default function Footer() {
   const t = useTranslations('footer');
+  const tB = useTranslations('basicInfo');
   const locale = useLocale();
   const prefix = `/${locale}`;
 
@@ -20,6 +21,12 @@ export default function Footer() {
             <h3 className="font-display text-lg font-semibold mb-1" style={{ color: 'var(--text-primary)' }}>
               Plaza Juan Barón
             </h3>
+            <p className="text-xs mb-1 leading-relaxed" style={{ color: 'var(--text-muted)' }}>
+              {tB('addressValue')}
+            </p>
+            <p className="text-xs mb-4" style={{ color: 'var(--text-muted)' }}>
+              {tB('phoneValue')}
+            </p>
             <p className="text-xs mb-4" style={{ color: 'var(--text-muted)' }}>
               {t('officialResourcesTitle')}
             </p>
@@ -57,6 +64,9 @@ export default function Footer() {
         >
           <p>{t('rights')}</p>
           <p className="text-xs max-w-3xl mx-auto leading-relaxed">{t('disclaimer')}</p>
+          {t.has('imageCredit') && (
+            <p className="text-xs max-w-3xl mx-auto leading-relaxed">{t('imageCredit')}</p>
+          )}
         </div>
       </div>
     </footer>

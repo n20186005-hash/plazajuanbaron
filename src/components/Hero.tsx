@@ -11,7 +11,8 @@ export default function Hero() {
       <div className="absolute inset-0">
         <img
           src="/gallery/plaza-juan-baron-1.jpg"
-          alt="Plaza Juan Barón"
+          alt={t('imageAlt')}
+          loading="eager"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0" style={{ background: 'var(--hero-overlay)' }} />
