@@ -9,10 +9,8 @@ const nextConfig: NextConfig = {
       { protocol: 'https' as const, hostname: 'images.unsplash.com' },
     ],
   },
-  // 确保静态导出时正确处理图片路径
-  output: 'export',
-  distDir: 'out',
-  // 解决多lockfile警告
+  // Cloudflare Workers（@opennextjs/cloudflare）需要标准的服务端构建产物。
+  // 注意：不要使用 output: 'export'，纯静态导出与 OpenNext 不兼容。
   outputFileTracingRoot: process.cwd(),
 };
 
